@@ -322,6 +322,11 @@
       background: #ffffff;
     }
 
+    .about-title {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
     .about-grid {
       display: grid;
       grid-template-columns: 1.8fr 1.1fr;
@@ -366,19 +371,33 @@
 
     .schedule-row {
       display: flex;
-      justify-content: space-between;
-      gap: 1.2rem;
-      margin-bottom: 0.7rem;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 0.8rem;
+      align-items: flex-start;
     }
 
     .schedule-label {
       font-weight: 600;
+      width: 120px;
+      flex-shrink: 0;
+    }
+
+    .schedule-row > div:last-child {
+      flex: 1;
     }
 
     .schedule-note {
       font-size: 0.8rem;
       color: #1f2933;
       margin-top: 0.4rem;
+    }
+
+    @media (max-width: 900px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 1.6rem;
+      }
     }
 
     /* FEATURES / ACTIVITIES */
@@ -511,11 +530,18 @@
       align-items: flex-start;
     }
 
-    .coaches-text .section-title {
+    .coaches-title {
+      text-align: center;
+      margin-bottom: 1.6rem;
+    }
+
+    .coaches-title .section-title {
       color: #ffffff;
     }
 
-    .coaches-text p {
+    .coaches-title p {
+      max-width: 760px;
+      margin: 0.6rem auto 0;
       font-size: 0.95rem;
       /*max-width: 540px;*/
     }
@@ -774,10 +800,11 @@
 <!-- ABOUT / PROGRAM DETAILS -->
     <section class="section-about" id="about">
       <div class="container">
+        <div class="about-title">
+          <h2 class="section-title">What to Expect</h2>
+        </div>
         <div class="about-grid">
           <div>
-
-            <h2 class="section-title">What to Expect</h2>
             <p class="about-text">
               Each week, kids explore playful games, mini challenges, and imaginative movement circuits that build balance, strength, and coordination — all disguised as fun!
             </p>
@@ -788,48 +815,45 @@
             </p>
           </div>
 
-          <div>
-            <div class="schedule-card">
-              <h3 class="schedule-title">Program details</h3>
-              
-              <div class="schedule-row">
-                <div class="schedule-label">Ages</div>
-                <div>3-6 <br>Note: for some activities groups will be split out (3-4 & 5-6)</div>
-              </div>
-              <div class="schedule-row">
-                <div class="schedule-label">Schedule</div>
-                <div>
-                  6-week program<br>
-                  Saturdays 9:30-10:30 AM<br>
-                  Starting January 17, 2026
-                </div>
-              </div>
-              <div class="schedule-row">
-                <div class="schedule-label">Location</div>
-                <div>
-                  <a href="https://maps.app.goo.gl/65hrq1qq69AC6shc7" target="_blank">Prince Edward Collegiate Institute (PECI)</a><br>
-                  41 Barker Street<br>
-                  Picton, ON<br>
-                  K0K 2T0<br>
-                  
-                </div>
-              </div>
-              <div class="schedule-row">
-                <div class="schedule-label">Cost</div>
-                <div>
-                  $30 per child / 6-week session<br>
-                  
-                </div>
-              </div>
-              <div class="schedule-row">
-                <div class="schedule-label">What to bring</div>
-                <div>
-                  Indoor running shoes, comfy clothes, and a water bottle.
-                  
-                </div>
-              </div>
-              
+          <div class="schedule-card">
+            <h3 class="schedule-title">Program details</h3>
+            
+            <div class="schedule-row">
+              <div class="schedule-label">Ages</div>
+              <div>3-6 <br>Note: for some activities groups will be split out (3-4 & 5-6)</div>
             </div>
+            <div class="schedule-row">
+              <div class="schedule-label">Schedule</div>
+              <div>6-week program<br>
+                Saturdays 9:30-10:30 AM<br>
+                Starting January 17, 2026
+              </div>
+            </div>
+            <div class="schedule-row">
+              <div class="schedule-label">Location</div>
+              <div>
+                <a href="https://maps.app.goo.gl/65hrq1qq69AC6shc7" target="_blank">Prince Edward Collegiate Institute (PECI)</a><br>
+                41 Barker Street<br>
+                Picton, ON<br>
+                K0K 2T0<br>
+                
+              </div>
+            </div>
+            <div class="schedule-row">
+              <div class="schedule-label">Cost</div>
+              <div>
+                $30 per child / 6-week session<br>
+                
+              </div>
+            </div>
+            <div class="schedule-row">
+              <div class="schedule-label">What to bring</div>
+              <div>
+                Indoor running shoes, comfy clothes, and a water bottle.
+                
+              </div>
+            </div>
+            
           </div>
         </div>
       </div>
@@ -880,40 +904,40 @@
     <section class="section-coaches" id="coaches">
       <div class="container">
         <div class="coaches-grid">
-          <div class="coaches-text">
+          <div class="coaches-title">
             <h2 class="section-title">Meet the team</h2>
             <p>
               County Kids Club is run by local volunteers who love seeing kids thrive. We’re parents, coaches, and movement enthusiasts dedicated to helping every child feel confident, capable, and excited to move.
             </p>
+          </div>
 
-            <div class="coach-roster">
-              <div class="coach-profile">
-                <div class="coach-avatar">J</div>
-                <div class="coach-name">Jessica Santos</div>
-                <div class="coach-bio">
-                  Sports and movement have always brought me joy, connection, and confidence. As a mom to an active almost-3-year-old, I noticed there were few places for young kids to explore movement in a fun, supportive way. Our community deserves more opportunities like this, and I’m excited to help create them.
-                </div>
+          <div class="coach-roster">
+            <div class="coach-profile">
+              <div class="coach-avatar">J</div>
+              <div class="coach-name">Jessica Santos</div>
+              <div class="coach-bio">
+                Sports and movement have always brought me joy, connection, and confidence. As a mom to an active almost-3-year-old, I noticed there were few places for young kids to explore movement in a fun, supportive way. Our community deserves more opportunities like this, and I’m excited to help create them.
               </div>
-              <div class="coach-profile">
-                <div class="coach-avatar">L</div>
-                <div class="coach-name">Lara Hilmi</div>
-                <div class="coach-bio">
-                  Lara has a lifelong connection to sport and physical activity that fuels her passion for helping children discover the joy and benefits of movement. Lara believes deeply in the power of sport as a way to build confidence, leadership skills and lasting friendships. When not chasing after her 3 young boys, she can be found running and cycling along the Millenium Trail. 
-                </div>
+            </div>
+            <div class="coach-profile">
+              <div class="coach-avatar">L</div>
+              <div class="coach-name">Lara Hilmi</div>
+              <div class="coach-bio">
+                Lara has a lifelong connection to sport and physical activity that fuels her passion for helping children discover the joy and benefits of movement. Lara believes deeply in the power of sport as a way to build confidence, leadership skills and lasting friendships. When not chasing after her 3 young boys, she can be found running and cycling along the Millenium Trail. 
               </div>
-              <div class="coach-profile">
-                <div class="coach-avatar">M</div>
-                <div class="coach-name">Michael Da Silva</div>
-                <div class="coach-bio">
-                  A lifelong fitness enthusiast who loves inspiring kids to move, grow, and push their limits in a fun, supportive way. A former die-hard skateboarder turned cyclist, runner, soccer, and volleyball player. Mike is passionate about longevity, healthy living, and building strong, connected communities. You can find him also volunteering at the local Repair Cafés and Kids of Steel events.
-                </div>
+            </div>
+            <div class="coach-profile">
+              <div class="coach-avatar">M</div>
+              <div class="coach-name">Michael Da Silva</div>
+              <div class="coach-bio">
+                A lifelong fitness enthusiast who loves inspiring kids to move, grow, and push their limits in a fun, supportive way. A former die-hard skateboarder turned cyclist, runner, soccer, and volleyball player. Mike is passionate about longevity, healthy living, and building strong, connected communities. You can find him also volunteering at the local Repair Cafés and Kids of Steel events.
               </div>
-              <div class="coach-profile">
-                <div class="coach-avatar">R</div>
-                <div class="coach-name">Robert Spagnola</div>
-                <div class="coach-bio">
-                  TBD
-                </div>
+            </div>
+            <div class="coach-profile">
+              <div class="coach-avatar">R</div>
+              <div class="coach-name">Robert Spagnola</div>
+              <div class="coach-bio">
+                TBD
               </div>
             </div>
           </div>
