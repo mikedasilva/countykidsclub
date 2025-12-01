@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QDE4BYGYEN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QDE4BYGYEN');
+</script>
+
   <meta charset="UTF-8" />
-  <title>County Kids Club – Kids Fitness Program</title>
+  <title>County Kids Club – Kids Movement Program in Prince Edward County</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
@@ -10,7 +21,7 @@
     :root {
       --bg-cream: #fff9e6;
       --bg-lime: #c9ff4f;
-      --bg-blue: #008cff;
+      --bg-blue: #41aacd;
       --bg-cyan: #00d0ff;
       --bg-pink: #ff4fd8;
       --bg-light: #f8fafc;
@@ -18,7 +29,7 @@
       --text-muted: #4b5563;
       --accent-yellow: #ffd93b;
       --accent-green: #2ecc71;
-      --accent-red: #ff5a5f;
+      --accent-red: #ef5741;
       --accent-blue: #4a7dff;
       --radius-lg: 24px;
       --shadow-soft: 0 18px 40px rgba(15, 23, 42, 0.18);
@@ -162,7 +173,7 @@
     }
 
     .hero-heading span {
-      color: var(--accent-blue);
+      color: var(--accent-red);
     }
 
     .hero-text {
@@ -322,6 +333,11 @@
       background: #ffffff;
     }
 
+    .about-title {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
     .about-grid {
       display: grid;
       grid-template-columns: 1.8fr 1.1fr;
@@ -351,28 +367,48 @@
     }
 
     .schedule-card {
-      background: var(--bg-lime);
+      background: var(--bg-blue);
       border-radius: var(--radius-lg);
       padding: 1.4rem 1.6rem;
       /*box-shadow: var(--shadow-soft);*/
       font-size: 0.92rem;
     }
 
+    .schedule-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 0.9rem;
+    }
+
     .schedule-row {
       display: flex;
-      justify-content: space-between;
-      gap: 1.2rem;
-      margin-bottom: 0.7rem;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 0.8rem;
+      align-items: flex-start;
     }
 
     .schedule-label {
       font-weight: 600;
+      width: 120px;
+      flex-shrink: 0;
+    }
+
+    .schedule-row > div:last-child {
+      flex: 1;
     }
 
     .schedule-note {
       font-size: 0.8rem;
       color: #1f2933;
       margin-top: 0.4rem;
+    }
+
+    @media (max-width: 900px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 1.6rem;
+      }
     }
 
     /* FEATURES / ACTIVITIES */
@@ -494,7 +530,7 @@
 
     .section-coaches {
       background: linear-gradient(90deg, var(--bg-blue) 100%, #ffffff 45%);
-      color: #ffffff;
+      color: #F5F5F5;
       padding-bottom: 20;
     }
 
@@ -505,11 +541,18 @@
       align-items: flex-start;
     }
 
-    .coaches-text .section-title {
-      color: #ffffff;
+    .coaches-title {
+      text-align: center;
+      margin-bottom: 1.6rem;
     }
 
-    .coaches-text p {
+    .coaches-title .section-title {
+      color: #F5F5F5;
+    }
+
+    .coaches-title p {
+      max-width: 760px;
+      margin: 0.6rem auto 0;
       font-size: 0.95rem;
       /*max-width: 540px;*/
     }
@@ -523,7 +566,7 @@
 
     .coach-profile {
       text-align: center;
-      color: #ffffff;
+      color: #F5F5F5;
     }
 
     .coach-avatar {
@@ -531,14 +574,16 @@
       height: 90px;
       margin: 0 auto 0.8rem;
       border-radius: 50%;
-      background: linear-gradient(135deg, var(--bg-pink), var(--bg-cyan));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 700;
-      color: #ffffff;
-      font-size: 1.6rem;
+      /*background: linear-gradient(135deg, var(--bg-pink), var(--bg-cyan));*/
       box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+    }
+
+    .coach-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      display: block;
     }
 
     .coach-name {
@@ -562,6 +607,13 @@
       }
     }
 
+    @media (max-width: 600px) {
+      .coach-roster {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+      }
+    }
+
     /* CONTACT / MAP */
 
     .section-contact {
@@ -572,7 +624,7 @@
 
     .contact-grid {
       display: grid;
-      grid-template-columns: 0.9fr 1.1fr;
+      /*grid-template-columns: 0.9fr 1.1fr;*/
       gap: 2.4rem;
       align-items: center;
     }
@@ -692,7 +744,7 @@
       color: #ffffff;
       font-size: 0.85rem;
       font-weight: 700;
-      box-shadow: 0 6px 16px rgba(0, 140, 255, 0.25);
+      /*box-shadow: 0 6px 16px rgba(0, 140, 255, 0.25);*/
     }
 
     .faq-answer {
@@ -700,6 +752,10 @@
       color: var(--text-muted);
       font-size: 0.95rem;
       line-height: 1.55;
+    }
+
+    .faq-list-bullets {
+      margin-left: 20px;
     }
 
 
@@ -714,7 +770,7 @@
       padding: 1.5rem 3.2rem 2rem;
       font-size: 0.8rem;
       color: var(--text-muted);
-      background: #ffffff;
+      background: var(--bg-light);
     }
 
     @media (max-width: 900px) {
@@ -733,7 +789,8 @@
     <section class="hero">
       <div class="container">
         <div class="hero-inner">
-          <div><img src="images/ckc_temp_image.png" alt="County Kids Club"></div>
+          <div><center><img src="images/ckc-colored-logo.png" alt="County Kids Club">
+          <img src="images/County.png" alt="County Kids Club"></center></div>
           <div>
             <h1 class="hero-heading">
               A movement club for kids<br>
@@ -745,24 +802,324 @@
 
             </p>
             <div class="hero-cta-group">
-              
+              <a href="https://forms.gle/BP7AMJMSYez9hjDb8" target="_blank">
                 <button class="btn-primary">
-                  Launching soon!
+                  Register <span>→</span>
                 </button>
-              
+              </a>
               <!--<a href="#about">
                 <button class="btn-outline">See schedule &amp; cost</button>
               </a>-->
+            </div>
+          </div>
+          
+
+    
+      
+    </section>
+
+<!-- ABOUT / PROGRAM DETAILS -->
+    <section class="section-about" id="about">
+      <div class="container">
+        <div class="about-title">
+          <h2 class="section-title">What to Expect</h2>
+        </div>
+        <div class="about-grid">
+          <div>
+            <p class="about-text">
+              Each week, kids explore playful games, mini challenges, and imaginative movement circuits that build balance, strength, and coordination — all disguised as fun!
+            </p>
+            <br>
+            <p class="about-text">
+              We focus on the basics — running, jumping, crawling, throwing — and mix them into obstacle courses, team games, and creative movement adventures.
+ No sports experience needed — just a smile and a willingness to move!
+            </p>
+          </div>
+
+          <div class="schedule-card">
+            <h3 class="schedule-title">Program details</h3>
+            
+            <div class="schedule-row">
+              <div class="schedule-label">Ages</div>
+              <div>3-6 <br>Note: for some activities groups will be split out (3-4 & 5-6)</div>
+            </div>
+            <div class="schedule-row">
+              <div class="schedule-label">Schedule</div>
+              <div>6-week program<br>
+                Saturdays 9:30-10:30 AM<br>
+                Starting January 17, 2026
+              </div>
+            </div>
+            <div class="schedule-row">
+              <div class="schedule-label">Location</div>
+              <div>
+                <a href="https://maps.app.goo.gl/65hrq1qq69AC6shc7" target="_blank">Prince Edward Collegiate Institute (PECI)</a><br>
+                41 Barker Street<br>
+                Picton, ON<br>
+                K0K 2T0<br>
+                
+              </div>
+            </div>
+            <div class="schedule-row">
+              <div class="schedule-label">Cost</div>
+              <div>
+                $30 per child / 6-week session<br>
+                
+              </div>
+            </div>
+            <div class="schedule-row">
+              <div class="schedule-label">What to bring</div>
+              <div>
+                Indoor running shoes, comfy clothes, and a water bottle.
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES / ACTIVITIES -->
+    <section class="section-features" id="features">
+      
+      <div class="container">
+        <div class="features-title">
+          <h2 class="section-title">What we do in class</h2>
+          <p class="section-subtitle" style="margin: 0 auto;">
+            Every class blends movement, imagination, and teamwork — helping kids grow stronger, more confident, and more connected.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-icon icon-pink">🏃‍♀️</div>
+            <h3>High-energy movement games</h3>
+            <p>
+              Think relay races, tag variations, and partner challenges that keep kids moving, laughing, and fully involved, all while learning without even realizing it.
+            </p>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon icon-blue">🧱</div>
+            <h3>Balance &amp; coordination</h3>
+            <p>
+              We crawl, climb, balance, and stretch through activities and fun fitness stations that build strong bodies and confident movers.
+            </p>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon icon-green">💬</div>
+            <h3>Teamwork &amp; confidence</h3>
+            <p>
+              From group circuits to class huddles, kids learn to listen, participate on their own and with others, cheer for their teammates, and feel proud of what their bodies can do.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- COACHES -->
+    <section class="section-coaches" id="coaches">
+      <div class="container">
+        <div class="coaches-grid">
+          <div class="coaches-title">
+            <h2 class="section-title">Meet the team</h2>
+            <p>
+              County Kids Club is run by local volunteers who love seeing kids thrive. We’re parents, coaches, and movement enthusiasts dedicated to helping every child feel confident, capable, and excited to move.
+            </p>
+          </div>
+
+          <div class="coach-roster">
+            <div class="coach-profile">
+              <div class="coach-avatar">
+                <img src="images/jess-profile.jpeg" alt="Jess">
+              </div>
+              <div class="coach-name">Jessica Santos</div>
+              <div class="coach-bio">
+                Sports and movement have always brought me joy, connection, and confidence. As a mom to an active almost-3-year-old, I noticed there were few places for young kids to explore movement in a fun, supportive way. Our community deserves more opportunities like this, and I’m excited to help create them.
+              </div>
+            </div>
+            <div class="coach-profile">
+              <div class="coach-avatar">
+                <img src="images/lara-profile.jpeg" alt="Lara">
+              </div>
+              <div class="coach-name">Lara Hilmi</div>
+              <div class="coach-bio">
+                Lara has a lifelong connection to sport and physical activity that fuels her passion for helping children discover the joy and benefits of movement. Lara believes deeply in the power of sport as a way to build confidence, leadership skills and lasting friendships. When not chasing after her 3 young boys, she can be found running and cycling along the Millenium Trail. 
+              </div>
+            </div>
+            <div class="coach-profile">
+              <div class="coach-avatar">
+                <img src="images/mike-profile.jpg" alt="Mike">
+              </div>
+              <div class="coach-name">Michael Da Silva</div>
+              <div class="coach-bio">
+                A lifelong fitness enthusiast who loves seeing kids move, grow, and push their limits. A former die-hard skateboarder turned cyclist, runner, soccer, and volleyball player. Mike is passionate about longevity, healthy living, and building strong, connected communities. You can find him volunteering at the local Repair Cafés and <a href="https://www.countykidsofsteel.ca/" target="_blank">Kids of Steel</a> events or around town trying to keep up with his active toddler.
+              </div>
+            </div>
+            <div class="coach-profile">
+              <div class="coach-avatar">
+                <img src="images/rob-profile.jpeg" alt="Rob">
+              </div>
+              <div class="coach-name">Robert Spagnola</div>
+              <div class="coach-bio">
+                Sport and physical activity have always been central to Rob’s life. As a former athlete, youth sports coach, and now Personal Trainer and owner of <a href="https://www.thegyminthearmoury.ca/" target="_blank">The Gym in the Armoury</a>, he brings both expertise and enthusiasm to every group he leads. When he’s not coaching or training, Rob is busy chasing his three-year-old around town, getting in even more steps than he planned.
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- FAQ -->
+    <section class="section-contact" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <div>
+            <h2 class="section-title">FAQ</h2>
+            <p class="section-subtitle">
+              Here's a list of some of the most frequently asked questions.
+            </p>
 
+            <div class="faq-list">
+              <div class="faq-item">
+                <div class="faq-question">
+                  Where is this located?
+                </div>
+                <div class="faq-answer">
+                  County Kids Club is held in <b>Picton, Prince Edward County, Canada</b>. Classes take place in one of the gyms at <b>Prince Edward Collegiate Institute (PECI)</b> — 41 Barker Street, Picton, ON.
+                  </div>  
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  How many kids will be in the program?
+                </div>
+                <div class="faq-answer">
+                  We’re keeping groups small — <b>a maximum of 24 kids total (12 per group: ages 3–4 and 5–6)</b> — so every child gets plenty of attention, encouragement, and room to move and play.
+                  </div>  
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  What is the age range?
+                </div>
+                <div class="faq-answer">
+                  The program is open to children <b>ages 3–6</b>, split into two groups:
+
+<ul class="faq-list-bullets">
+  <li>3–4 years</li>
+  <li>5–6 years</li>
+</ul>
+<br>
+<p>This helps us tailor activities to each age group’s energy, coordination, and confidence level.</p>
+                  </div>  
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  What is the cost?
+                </div>
+                <div class="faq-answer">
+                  <b>It’s $30 per child</b> for a <b>6-week session</b> — an affordable way to get kids moving, learning, and having fun every week!
+                  </div>
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  What is the schedule?
+                </div>
+                <div class="faq-answer">
+                  Classes run on <b>Saturdays from 9:30–10:30 AM.</b>
+Our <b>Winter Session</b> begins January 17, 2026 and ends on <b>February 28, 2026</b>. Please note there will be no session on Family Day Weekend (February 14).  
+                  </div>
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  What equipment does my child need?
+                </div>
+                <div class="faq-answer">
+                  No equipment or special clothing is needed. Just something comfortable to move around in and a clean pair of indoor shoes.
+                </div>
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  Does my child need to be at a certain fitness level?
+                </div>
+                <div class="faq-answer">
+                  No minimum fitness level is required—while the activities are designed to be challenging, they’re purposely structured so kids feel engaged and empowered to participate in a fun, friendly, and supportive environment.
+                </div>
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  Do I drop my child off or do I stay with them?
+                </div>
+                <div class="faq-answer">
+                  Parents are asked to <b>stay for the duration of the class</b>, but we encourage you to sit back, relax, and watch your child in action. Our instructors will lead the group and keep everyone engaged — you just get to enjoy seeing your little one move, play, and grow in confidence!
+                  </div>
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  What’s the format of a typical session?
+                </div>
+                <div class="faq-answer">
+                  Each session starts with a quick team huddle where we set simple goals and get everyone ready to go. After a warm-up, kids move through 3-5 fun and purposeful activities, each lasting about 8-12 minutes. We take water breaks and gather for mini huddles between activities to keep everyone refreshed, focused, and connected.
+                  </div>
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  Are any snacks provided?
+                </div>
+                <div class="faq-answer">
+                  We’ll provide a healthy snack for the kids after each class, but please make sure your child brings a water bottle to stay hydrated. If they need something extra, feel free to have a small snack ready for before or after class.  
+                  </div>
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  What is the adult-to-child ratio?
+                </div>
+                <div class="faq-answer">
+                  The program will be supported by 4–5 adult volunteers each week, ensuring a safe, supportive, and well-supervised environment for all participants.
+                  </div>
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  What if I have a question not covered here?
+                </div>
+                <div class="faq-answer">
+                  You can email us at <a href="mailto:countykidsclub@gmail.com">countykidsclub@gmail.com</a> and we’ll get back to you as soon as possible!
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          
+
+        </div>
+      </div>
+    </section>
+
+<!-- CONTACT -->
+    <section class="section-features" id="features">
+      
+      <div class="container">
+        <div class="features-title">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle" style="margin: 0 auto;">
+            If you'd like to get in touch with us, please email us at <a href="mailto:countykidsclub@gmail.com">countykidsclub@gmail.com</a>
+          </p>
+        </div>
+
+        
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> County Kids Club. All rights reserved.
+    </footer>
   </div>
           
-        
+        </div>
+      </div>
 
 
   <script>
