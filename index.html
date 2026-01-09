@@ -784,6 +784,25 @@
       background: var(--bg-light);
     }
 
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem 1.5rem;
+    }
+
+    .footer-powered {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .footer-logo {
+      height: 42px;
+      width: auto;
+    }
+
     @media (max-width: 900px) {
       footer {
         padding: 1.5rem 1.6rem 2rem;
@@ -1147,7 +1166,15 @@ Our <b>Winter Session</b> begins January 17, 2026 and ends on <b>February 28, 20
     </section>
 
     <footer>
-      © <span id="year"></span> County Kids Club. All rights reserved.
+      <div class="footer-inner">
+        <span>© <span id="year"></span> County Kids Club. All rights reserved.</span>
+        <span class="footer-powered">
+          Powered by
+          <a href="https://youthmodo.com" target="_blank" rel="noopener">
+            <img class="footer-logo" src="images/youthmodo.png" alt="YouthModo logo">
+          </a>
+        </span>
+      </div>
     </footer>
   </div>
           
