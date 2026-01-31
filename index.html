@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QDE4BYGYEN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-QDE4BYGYEN');
-</script>
+<head>
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QDE4BYGYEN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QDE4BYGYEN');
+  </script>
 
   <meta charset="UTF-8" />
   <title>County Kids Club – Kids Movement Program in Prince Edward County</title>
-  <meta name="description" content="County Kids Club is a fun, confidence-building movement program for kids in Prince Edward County—featuring games, obstacle courses, and teamwork.">
+  <meta name="description"
+    content="County Kids Club is a fun, confidence-building movement program for kids in Prince Edward County—featuring games, obstacle courses, and teamwork.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="County Kids Club – Kids Movement Program in Prince Edward County">
-  <meta property="og:description" content="Kids jump, run, climb, and play their way to confidence with games, obstacle courses, and teamwork in PEC.">
+  <meta property="og:description"
+    content="Kids jump, run, climb, and play their way to confidence with games, obstacle courses, and teamwork in PEC.">
   <meta property="og:image" content="/images/county-kids-club-logo-multi.png">
   <meta property="og:url" content="https://countykidsclub.com">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="County Kids Club – Kids Movement Program in Prince Edward County">
-  <meta name="twitter:description" content="A playful, supportive movement program for kids—building coordination, strength, and confidence in PEC.">
+  <meta name="twitter:description"
+    content="A playful, supportive movement program for kids—building coordination, strength, and confidence in PEC.">
   <meta name="twitter:image" content="/images/county-kids-club-logo-multi.png">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
+
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <style>
@@ -160,7 +164,7 @@
     .section-subtitle {
       font-size: 0.95rem;
       color: var(--text-muted);
-      /*max-width: 460px;*/ 
+      /*max-width: 460px;*/
     }
 
     /* HERO */
@@ -320,19 +324,24 @@
       .hero {
         background: #fff9e6;
       }
+
       .hero-inner {
         grid-template-columns: 1fr;
       }
+
       .hero-heading {
         font-size: 2.4rem;
       }
+
       .hero-badge,
       .hero-tag-kid {
         display: none;
       }
+
       .hero-block-bg {
         inset: 6%;
       }
+
       .hero-device-card {
         max-width: 250px;
       }
@@ -362,7 +371,7 @@
       max-width: 750px;
     }
 
-    .about-text p + p {
+    .about-text p+p {
       margin-top: 0.85rem;
     }
 
@@ -405,7 +414,7 @@
       flex-shrink: 0;
     }
 
-    .schedule-row > div:last-child {
+    .schedule-row>div:last-child {
       flex: 1;
     }
 
@@ -465,10 +474,12 @@
       background: rgba(255, 79, 216, 0.16);
       color: #ff4fd8;
     }
+
     .icon-blue {
       background: rgba(0, 140, 255, 0.12);
       color: #008cff;
     }
+
     .icon-green {
       background: rgba(116, 255, 139, 0.18);
       color: #0ba848;
@@ -499,42 +510,137 @@
     /* TESTIMONIALS */
 
     .section-testimonials {
-      background: #ffffff;
+      background: linear-gradient(135deg, #fff9e6 0%, #ffffff 50%);
       padding-top: 4rem;
+      padding-bottom: 4rem;
     }
 
-    .testimonials-grid {
-      display: grid;
-      grid-template-columns: 0.95fr 1.1fr;
-      gap: 2.4rem;
+    .testimonials-title {
+      text-align: center;
+      margin-bottom: 2.5rem;
     }
 
     .testimonials-title span {
       color: var(--bg-pink);
     }
 
+    .testimonials-container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
     .testimonial-list {
-      font-size: 0.9rem;
-    }
-
-    .testimonial-row {
       display: grid;
-      grid-template-columns: 0.8fr 1.6fr;
-      gap: 1.2rem;
-      padding: 0.75rem 0;
-      border-bottom: 1px solid #e5e7eb;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.6rem;
     }
 
-    .testimonial-row:last-child {
-      border-bottom: none;
+    .testimonial-card {
+      position: relative;
+      padding: 1.8rem 1.6rem;
+      border-radius: 24px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      overflow: hidden;
     }
 
-    .testimonial-name {
-      font-weight: 600;
+    .testimonial-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(15, 23, 42, 0.18);
+    }
+
+    .testimonial-card.kid-quote {
+      background: linear-gradient(135deg, #c9ff4f 0%, #74ff8b 100%);
+    }
+
+    .testimonial-card.parent-quote {
+      background: linear-gradient(135deg, #41aacd 0%, #00d0ff 100%);
+      color: #ffffff;
+    }
+
+    .testimonial-icon {
+      font-size: 2.2rem;
+      margin-bottom: 0.8rem;
+      display: block;
     }
 
     .testimonial-text {
-      color: var(--text-muted);
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1.6;
+      margin-bottom: 1.2rem;
+      font-style: italic;
+      position: relative;
+      z-index: 1;
+    }
+
+    .testimonial-card.kid-quote .testimonial-text {
+      color: #111827;
+    }
+
+    .testimonial-card.parent-quote .testimonial-text {
+      color: rgba(255, 255, 255, 0.95);
+    }
+
+    .testimonial-name {
+      font-weight: 700;
+      font-size: 0.95rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .testimonial-card.kid-quote .testimonial-name {
+      color: #111827;
+    }
+
+    .testimonial-card.parent-quote .testimonial-name {
+      color: #ffffff;
+    }
+
+    .testimonial-badge {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .testimonial-card.kid-quote .testimonial-badge {
+      background: rgba(17, 24, 39, 0.1);
+      color: #111827;
+    }
+
+    .testimonial-card.parent-quote .testimonial-badge {
+      background: rgba(255, 255, 255, 0.25);
+      color: #ffffff;
+    }
+
+    .testimonial-stars {
+      position: absolute;
+      font-size: 1.2rem;
+      opacity: 0.15;
+      z-index: 0;
+    }
+
+    .star-1 {
+      top: 10px;
+      right: 15px;
+      transform: rotate(15deg);
+    }
+
+    .star-2 {
+      bottom: 15px;
+      left: 20px;
+      transform: rotate(-20deg);
+    }
+
+    @media (max-width: 900px) {
+      .testimonial-list {
+        grid-template-columns: 1fr;
+      }
     }
 
     /* COACHES / FOUNDERS */
@@ -613,6 +719,7 @@
       .section-coaches {
         background: var(--bg-blue);
       }
+
       .coach-roster {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
@@ -810,6 +917,7 @@
     }
   </style>
 </head>
+
 <body>
   <div class="page">
 
@@ -819,31 +927,42 @@
     <section class="hero">
       <div class="container">
         <div class="hero-inner">
-          <div><center><img src="images/ckc-colored-logo.png" alt="County Kids Club">
-          <img src="images/County.png" alt="County Kids Club"></center></div>
+          <div>
+            <center><img src="images/ckc-colored-logo.png" alt="County Kids Club">
+              <img src="images/County.png" alt="County Kids Club">
+            </center>
+          </div>
           <div>
             <h1 class="hero-heading">
               A movement club for kids<br>
               <span>powered by fun and community.</span>
             </h1>
             <p class="hero-text">
-              County Kids Club is a fitness and movement program in Prince Edward County where kids jump, run, climb, and play their way to confidence and lifelong healthy habits.
-</p><br><p class="hero-text">Each class blends fun, energy, and skill-building—helping kids discover the joy of movement while developing coordination, strength, and self-belief.
+              County Kids Club is a fitness and movement program in Prince Edward County where kids jump, run, climb,
+              and play their way to confidence and lifelong healthy habits.
+            </p><br>
+            <p class="hero-text">Each class blends fun, energy, and skill-building—helping kids discover the joy of
+              movement while developing coordination, strength, and self-belief.
 
             </p>
-            <br><p class="hero-text">All spots for County Kids Club are currently filled — but you can still join the waitlist!
-We’ll let you know if a space opens up or if a new session is added.
-</p>
+            <br>
+            <p class="hero-text">All spots for County Kids Club are currently filled — but you can still join the
+              waitlist!
+              We’ll let you know if a space opens up or if a new session is added.
+            </p>
             <div class="hero-cta-group">
-              <a href="https://countykidsclub.youthmodo.com/register?programId=adb809d8-8a42-4e25-81a2-5ebad98bc6c0" target="_blank">
+              <a href="https://countykidsclub.youthmodo.com/register?programId=adb809d8-8a42-4e25-81a2-5ebad98bc6c0"
+                target="_blank">
                 <button class="btn-primary">
                   Join the waitlist <span>→</span>
                 </button>
               </a>
-              <a href="https://countykidsclub.youthmodo.com/volunteer/adb809d8-8a42-4e25-81a2-5ebad98bc6c0" target="_blank">
+              <a href="https://countykidsclub.youthmodo.com/volunteer/adb809d8-8a42-4e25-81a2-5ebad98bc6c0"
+                target="_blank">
                 <button class="btn-outline">Volunteer</button>
               </a>
-              <a href="https://countykidsclub.youthmodo.com/waiver?programId=adb809d8-8a42-4e25-81a2-5ebad98bc6c0" target="_blank">
+              <a href="https://countykidsclub.youthmodo.com/waiver?programId=adb809d8-8a42-4e25-81a2-5ebad98bc6c0"
+                target="_blank">
                 <button class="btn-outline">Sign Waiver</button>
               </a>
               <!--<a href="#about">
@@ -851,13 +970,13 @@ We’ll let you know if a space opens up or if a new session is added.
               </a>-->
             </div>
           </div>
-          
 
-    
-      
+
+
+
     </section>
 
-<!-- ABOUT / PROGRAM DETAILS -->
+    <!-- ABOUT / PROGRAM DETAILS -->
     <section class="section-about" id="about">
       <div class="container">
         <div class="about-title">
@@ -866,18 +985,20 @@ We’ll let you know if a space opens up or if a new session is added.
         <div class="about-grid">
           <div>
             <p class="about-text">
-              Each week, kids explore playful games, mini challenges, and imaginative movement circuits that build balance, strength, and coordination — all disguised as fun!
+              Each week, kids explore playful games, mini challenges, and imaginative movement circuits that build
+              balance, strength, and coordination — all disguised as fun!
             </p>
             <br>
             <p class="about-text">
-              We focus on the basics — running, jumping, crawling, throwing — and mix them into obstacle courses, team games, and creative movement adventures.
- No sports experience needed — just a smile and a willingness to move!
+              We focus on the basics — running, jumping, crawling, throwing — and mix them into obstacle courses, team
+              games, and creative movement adventures.
+              No sports experience needed — just a smile and a willingness to move!
             </p>
           </div>
 
           <div class="schedule-card">
             <h3 class="schedule-title">Program details</h3>
-            
+
             <div class="schedule-row">
               <div class="schedule-label">Ages</div>
               <div>3-6 <br>Note: for some activities, groups might be split out (3-4 & 5-6)</div>
@@ -892,36 +1013,38 @@ We’ll let you know if a space opens up or if a new session is added.
             <div class="schedule-row">
               <div class="schedule-label">Location</div>
               <div>
-                <a href="https://maps.app.goo.gl/65hrq1qq69AC6shc7" target="_blank">Prince Edward Collegiate Institute (PECI)<br>
-                GYM A<br>
-                41 Barker Street<br>
-                Picton, ON<br>
-                K0K 2T0</a><br>
-                
+                <a href="https://maps.app.goo.gl/65hrq1qq69AC6shc7" target="_blank">Prince Edward Collegiate Institute
+                  (PECI)<br>
+                  GYM A<br>
+                  41 Barker Street<br>
+                  Picton, ON<br>
+                  K0K 2T0</a><br>
+
               </div>
             </div>
             <div class="schedule-row">
               <div class="schedule-label">Cost</div>
               <div>
                 $45 per child / 6-week session<br>
-                
+
               </div>
             </div>
             <div class="schedule-row">
               <div class="schedule-label">What to bring</div>
               <div>
                 Indoor running shoes, comfy clothes, and a water bottle.
-                
+
               </div>
             </div>
             <div class="schedule-row">
               <div class="schedule-label">Note</div>
               <div>
-                A parent or guardian is required to stay for the duration of each class. See our <a href="#faq">FAQ</a> for more information.
-                
+                A parent or guardian is required to stay for the duration of each class. See our <a href="#faq">FAQ</a>
+                for more information.
+
               </div>
             </div>
-            
+
           </div>
         </div>
       </div>
@@ -929,12 +1052,13 @@ We’ll let you know if a space opens up or if a new session is added.
 
     <!-- FEATURES / ACTIVITIES -->
     <section class="section-features" id="features">
-      
+
       <div class="container">
         <div class="features-title">
           <h2 class="section-title">What we do in class</h2>
           <p class="section-subtitle" style="margin: 0 auto;">
-            Every class blends movement, imagination, and teamwork — helping kids grow stronger, more confident, and more connected.
+            Every class blends movement, imagination, and teamwork — helping kids grow stronger, more confident, and
+            more connected.
           </p>
         </div>
 
@@ -943,7 +1067,8 @@ We’ll let you know if a space opens up or if a new session is added.
             <div class="feature-icon icon-pink">🏃‍♀️</div>
             <h3>High-energy movement games</h3>
             <p>
-              Think relay races, tag variations, and partner challenges that keep kids moving, laughing, and fully involved, all while learning without even realizing it.
+              Think relay races, tag variations, and partner challenges that keep kids moving, laughing, and fully
+              involved, all while learning without even realizing it.
             </p>
           </div>
 
@@ -951,7 +1076,8 @@ We’ll let you know if a space opens up or if a new session is added.
             <div class="feature-icon icon-blue">🧱</div>
             <h3>Balance &amp; coordination</h3>
             <p>
-              We crawl, climb, balance, and stretch through activities and fun fitness stations that build strong bodies and confident movers.
+              We crawl, climb, balance, and stretch through activities and fun fitness stations that build strong bodies
+              and confident movers.
             </p>
           </div>
 
@@ -959,14 +1085,15 @@ We’ll let you know if a space opens up or if a new session is added.
             <div class="feature-icon icon-green">💬</div>
             <h3>Teamwork &amp; confidence</h3>
             <p>
-              From group circuits to class huddles, kids learn to listen, participate on their own and with others, cheer for their teammates, and feel proud of what their bodies can do.
+              From group circuits to class huddles, kids learn to listen, participate on their own and with others,
+              cheer for their teammates, and feel proud of what their bodies can do.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    
+
 
     <!-- COACHES -->
     <section class="section-coaches" id="coaches">
@@ -975,7 +1102,8 @@ We’ll let you know if a space opens up or if a new session is added.
           <div class="coaches-title">
             <h2 class="section-title">Meet the team</h2>
             <p>
-              County Kids Club is run by local volunteers who love seeing kids thrive. We’re parents, coaches, and movement enthusiasts dedicated to helping every child feel confident, capable, and excited to move.
+              County Kids Club is run by local volunteers who love seeing kids thrive. We’re parents, coaches, and
+              movement enthusiasts dedicated to helping every child feel confident, capable, and excited to move.
             </p>
           </div>
 
@@ -986,7 +1114,10 @@ We’ll let you know if a space opens up or if a new session is added.
               </div>
               <div class="coach-name">Jessica Santos</div>
               <div class="coach-bio">
-                Sports and movement have always brought me joy, connection, and confidence. As a mom to an active almost-3-year-old, I noticed there were few places for young kids to explore movement in a fun, supportive way. Our community deserves more opportunities like this, and I’m excited to help create them.
+                Sports and movement have always brought me joy, connection, and confidence. As a mom to an active
+                almost-3-year-old, I noticed there were few places for young kids to explore movement in a fun,
+                supportive way. Our community deserves more opportunities like this, and I’m excited to help create
+                them.
               </div>
             </div>
             <div class="coach-profile">
@@ -995,7 +1126,10 @@ We’ll let you know if a space opens up or if a new session is added.
               </div>
               <div class="coach-name">Lara Hilmi</div>
               <div class="coach-bio">
-                Lara has a lifelong connection to sport and physical activity that fuels her passion for helping children discover the joy and benefits of movement. Lara believes deeply in the power of sport as a way to build confidence, leadership skills and lasting friendships. When not chasing after her 3 young boys, she can be found running and cycling along the Millenium Trail. 
+                Lara has a lifelong connection to sport and physical activity that fuels her passion for helping
+                children discover the joy and benefits of movement. Lara believes deeply in the power of sport as a way
+                to build confidence, leadership skills and lasting friendships. When not chasing after her 3 young boys,
+                she can be found running and cycling along the Millenium Trail.
               </div>
             </div>
             <div class="coach-profile">
@@ -1004,7 +1138,11 @@ We’ll let you know if a space opens up or if a new session is added.
               </div>
               <div class="coach-name">Michael Da Silva</div>
               <div class="coach-bio">
-                A lifelong fitness enthusiast who loves seeing kids move, grow, and push their limits. A former die-hard skateboarder turned cyclist, runner, soccer, and volleyball player. Mike is passionate about longevity, healthy living, and building strong, connected communities. You can find him volunteering at the local Repair Cafés and <a href="https://www.countykidsofsteel.ca/" target="_blank">Kids of Steel</a> events or around town trying to keep up with his active toddler.
+                A lifelong fitness enthusiast who loves seeing kids move, grow, and push their limits. A former die-hard
+                skateboarder turned cyclist, runner, soccer, and volleyball player. Mike is passionate about longevity,
+                healthy living, and building strong, connected communities. You can find him volunteering at the local
+                Repair Cafés and <a href="https://www.countykidsofsteel.ca/" target="_blank">Kids of Steel</a> events or
+                around town trying to keep up with his active toddler.
               </div>
             </div>
             <div class="coach-profile">
@@ -1013,7 +1151,11 @@ We’ll let you know if a space opens up or if a new session is added.
               </div>
               <div class="coach-name">Robert Spagnola</div>
               <div class="coach-bio">
-                Sport and physical activity have always been central to Rob’s life. As a former athlete, youth sports coach, and now Personal Trainer and owner of <a href="https://www.thegyminthearmoury.ca/" target="_blank">The Gym in the Armoury</a>, he brings both expertise and enthusiasm to every group he leads. When he’s not coaching or training, Rob is busy chasing his three-year-old around town, getting in even more steps than he planned.
+                Sport and physical activity have always been central to Rob’s life. As a former athlete, youth sports
+                coach, and now Personal Trainer and owner of <a href="https://www.thegyminthearmoury.ca/"
+                  target="_blank">The Gym in the Armoury</a>, he brings both expertise and enthusiasm to every group he
+                leads. When he’s not coaching or training, Rob is busy chasing his three-year-old around town, getting
+                in even more steps than he planned.
               </div>
             </div>
           </div>
@@ -1037,39 +1179,44 @@ We’ll let you know if a space opens up or if a new session is added.
                   Where is this located?
                 </div>
                 <div class="faq-answer">
-                  County Kids Club is held in <b>Picton, Prince Edward County, Canada</b>. Classes take place in GYM A at <a href="https://maps.app.goo.gl/65hrq1qq69AC6shc7" target="_blank"><b>Prince Edward Collegiate Institute (PECI)</b> — 41 Barker Street, Picton, ON.</a>
-                  </div>  
+                  County Kids Club is held in <b>Picton, Prince Edward County, Canada</b>. Classes take place in GYM A
+                  at <a href="https://maps.app.goo.gl/65hrq1qq69AC6shc7" target="_blank"><b>Prince Edward Collegiate
+                      Institute (PECI)</b> — 41 Barker Street, Picton, ON.</a>
+                </div>
               </div>
               <div class="faq-item">
                 <div class="faq-question">
                   How many kids will be in the program?
                 </div>
                 <div class="faq-answer">
-                  We’re keeping groups small — <b>a maximum of 24 kids total (12 per group: ages 3–4 and 5–6)</b> — so every child gets plenty of attention, encouragement, and room to move and play.
-                  </div>  
+                  We’re keeping groups small — <b>a maximum of 24 kids total (12 per group: ages 3–4 and 5–6)</b> — so
+                  every child gets plenty of attention, encouragement, and room to move and play.
+                </div>
               </div>
               <div class="faq-item">
                 <div class="faq-question">
                   What is the age range?
                 </div>
                 <div class="faq-answer">
-                  The program is open to children <b>ages 3–6</b>. Some activities might require the kids to be split into two groups:
+                  The program is open to children <b>ages 3–6</b>. Some activities might require the kids to be split
+                  into two groups:
 
-<ul class="faq-list-bullets">
-  <li>3–4 years</li>
-  <li>5–6 years</li>
-</ul>
-<br>
-<p>This helps us tailor activities to each age group’s energy, coordination, and confidence level.</p>
-                  </div>  
+                  <ul class="faq-list-bullets">
+                    <li>3–4 years</li>
+                    <li>5–6 years</li>
+                  </ul>
+                  <br>
+                  <p>This helps us tailor activities to each age group’s energy, coordination, and confidence level.</p>
+                </div>
               </div>
               <div class="faq-item">
                 <div class="faq-question">
                   What is the cost?
                 </div>
                 <div class="faq-answer">
-                  <b>It’s $45 per child</b> for a <b>6-week session</b> — an affordable way to get kids moving, learning, and having fun every week!
-                  </div>
+                  <b>It’s $45 per child</b> for a <b>6-week session</b> — an affordable way to get kids moving,
+                  learning, and having fun every week!
+                </div>
               </div>
               <div class="faq-item">
                 <div class="faq-question">
@@ -1077,15 +1224,17 @@ We’ll let you know if a space opens up or if a new session is added.
                 </div>
                 <div class="faq-answer">
                   Classes run on <b>Saturdays from 9:30–10:30 AM.</b>
-Our <b>Winter Session</b> begins January 17, 2026 and ends on <b>February 28, 2026</b>. Please note there will be no session on Family Day Weekend (February 14).  
-                  </div>
+                  Our <b>Winter Session</b> begins January 17, 2026 and ends on <b>February 28, 2026</b>. Please note
+                  there will be no session on Family Day Weekend (February 14).
+                </div>
               </div>
               <div class="faq-item">
                 <div class="faq-question">
                   What equipment does my child need?
                 </div>
                 <div class="faq-answer">
-                  No equipment or special clothing is needed. Just something comfortable to move around in and a clean pair of indoor shoes.
+                  No equipment or special clothing is needed. Just something comfortable to move around in and a clean
+                  pair of indoor shoes.
                 </div>
               </div>
               <div class="faq-item">
@@ -1093,7 +1242,9 @@ Our <b>Winter Session</b> begins January 17, 2026 and ends on <b>February 28, 20
                   Does my child need to be at a certain fitness level?
                 </div>
                 <div class="faq-answer">
-                  No minimum fitness level is required—while the activities are designed to be challenging, they’re purposely structured so kids feel engaged and empowered to participate in a fun, friendly, and supportive environment.
+                  No minimum fitness level is required—while the activities are designed to be challenging, they’re
+                  purposely structured so kids feel engaged and empowered to participate in a fun, friendly, and
+                  supportive environment.
                 </div>
               </div>
               <div class="faq-item">
@@ -1101,39 +1252,50 @@ Our <b>Winter Session</b> begins January 17, 2026 and ends on <b>February 28, 20
                   Do I drop my child off or do I stay with them?
                 </div>
                 <div class="faq-answer">
-                  A parent or guardian is required to <b>stay for the duration of each class</b>, but we encourage you to sit back, relax, and watch your child in action. Our instructors will lead the group and keep everyone engaged — you just get to enjoy seeing your little one move, play, and grow in confidence!
-                  </div>
+                  A parent or guardian is required to <b>stay for the duration of each class</b>, but we encourage you
+                  to sit back, relax, and watch your child in action. Our instructors will lead the group and keep
+                  everyone engaged — you just get to enjoy seeing your little one move, play, and grow in confidence!
+                </div>
               </div>
               <div class="faq-item">
                 <div class="faq-question">
                   What’s the format of a typical session?
                 </div>
                 <div class="faq-answer">
-                  Each session starts with a quick team huddle where we set simple goals and get everyone ready to go. After a warm-up, kids move through 3-5 fun and purposeful activities, each lasting about 8-12 minutes. We take water breaks and gather for mini huddles between activities to keep everyone refreshed, focused, and connected.
-                  </div>
+                  Each session starts with a quick team huddle where we set simple goals and get everyone ready to go.
+                  After a warm-up, kids move through 3-5 fun and purposeful activities, each lasting about 8-12 minutes.
+                  We take water breaks and gather for mini huddles between activities to keep everyone refreshed,
+                  focused, and connected.
+                </div>
               </div>
               <div class="faq-item">
                 <div class="faq-question">
                   Are any snacks provided?
                 </div>
                 <div class="faq-answer">
-                  We’ll provide a healthy snack for the kids after each class, but please make sure your child brings a water bottle to stay hydrated. If they need something extra, feel free to have a small snack ready for before or after class.  
-                  </div>
+                  We’ll provide a healthy snack for the kids after each class, but please make sure your child brings a
+                  water bottle to stay hydrated. If they need something extra, feel free to have a small snack ready for
+                  before or after class.
+                </div>
               </div>
               <div class="faq-item">
                 <div class="faq-question">
                   What is the adult-to-child ratio?
                 </div>
                 <div class="faq-answer">
-                  The program will be supported by 3–5 adult volunteers each week, ensuring a safe, supportive, and well-supervised environment for all participants.
-                  </div>
+                  The program will be supported by 3–5 adult volunteers each week, ensuring a safe, supportive, and
+                  well-supervised environment for all participants.
+                </div>
               </div>
               <div class="faq-item">
                 <div class="faq-question">
                   How do I make a payment for the program?
                 </div>
                 <div class="faq-answer">
-                  You'll first need to <b><a href="https://countykidsclub.youthmodo.com/register?programId=adb809d8-8a42-4e25-81a2-5ebad98bc6c0" target="_blank">join the waitlist</a> </b>for the program and then we'll email you with a confirmation and next steps for making your payment through an e-Transfer.
+                  You'll first need to <b><a
+                      href="https://countykidsclub.youthmodo.com/register?programId=adb809d8-8a42-4e25-81a2-5ebad98bc6c0"
+                      target="_blank">join the waitlist</a> </b>for the program and then we'll email you with a
+                  confirmation and next steps for making your payment through an e-Transfer.
                 </div>
               </div>
               <div class="faq-item">
@@ -1141,36 +1303,39 @@ Our <b>Winter Session</b> begins January 17, 2026 and ends on <b>February 28, 20
                   What if I have a question not covered here?
                 </div>
                 <div class="faq-answer">
-                  You can email us at <a href="mailto:countykidsclub@gmail.com">countykidsclub@gmail.com</a> and we’ll get back to you as soon as possible!
+                  You can email us at <a href="mailto:countykidsclub@gmail.com">countykidsclub@gmail.com</a> and we’ll
+                  get back to you as soon as possible!
                 </div>
               </div>
             </div>
-            
+
           </div>
-          
+
 
         </div>
       </div>
     </section>
 
-<!-- CONTACT -->
+    <!-- CONTACT -->
     <section class="section-features" id="features">
-      
+
       <div class="container">
         <div class="features-title">
           <h2 class="section-title">Contact</h2>
           <p class="section-subtitle" style="margin: 0 auto;">
-            If you'd like to get in touch with us, please email us at <a href="mailto:countykidsclub@gmail.com">countykidsclub@gmail.com</a>
+            If you'd like to get in touch with us, please email us at <a
+              href="mailto:countykidsclub@gmail.com">countykidsclub@gmail.com</a>
           </p>
         </div>
 
-        
+
       </div>
     </section>
 
     <footer>
       <div class="footer-inner">
         <span>© <span id="year"></span> County Kids Club. All rights reserved.</span>
+        <span>Website built by <a href="https://pectech.ca" target="_blank" rel="noopener"><b>PECTech.ca</b></a></span>
         <span class="footer-powered">
           Powered by
           <a href="https://youthmodo.com" target="_blank" rel="noopener">
@@ -1180,13 +1345,14 @@ Our <b>Winter Session</b> begins January 17, 2026 and ends on <b>February 28, 20
       </div>
     </footer>
   </div>
-          
-        </div>
-      </div>
+
+  </div>
+  </div>
 
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
+
 </html>
