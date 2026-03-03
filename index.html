@@ -510,134 +510,135 @@
     /* TESTIMONIALS */
 
     .section-testimonials {
-      background: linear-gradient(135deg, #fff9e6 0%, #ffffff 50%);
+      background:
+        radial-gradient(circle at top left, rgba(255, 217, 59, 0.32), transparent 28%),
+        linear-gradient(135deg, #ffffff 0%, #f8fbff 45%, #fff9e6 100%);
       padding-top: 4rem;
       padding-bottom: 4rem;
     }
 
-    .testimonials-title {
-      text-align: center;
-      margin-bottom: 2.5rem;
+    .testimonials-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.4fr);
+      gap: 2rem;
+      align-items: start;
     }
 
-    .testimonials-title span {
-      color: var(--bg-pink);
+    .testimonials-intro {
+      padding: 2rem;
+      border-radius: 28px;
+      background: #111827;
+      color: #ffffff;
+      box-shadow: var(--shadow-soft);
     }
 
-    .testimonials-container {
-      max-width: 1100px;
-      margin: 0 auto;
+    .testimonials-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.35rem 0.8rem;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.12);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .testimonials-intro .section-title {
+      margin-top: 1rem;
+      margin-bottom: 0.7rem;
+    }
+
+    .testimonials-intro .section-subtitle {
+      color: rgba(255, 255, 255, 0.8);
+      max-width: 28rem;
+    }
+
+    .testimonial-note {
+      margin-top: 1.2rem;
+      font-size: 0.9rem;
+      color: rgba(255, 255, 255, 0.72);
     }
 
     .testimonial-list {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 1.6rem;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.2rem;
     }
 
     .testimonial-card {
       position: relative;
-      padding: 1.8rem 1.6rem;
+      min-height: 100%;
+      padding: 1.6rem;
       border-radius: 24px;
-      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      background: #ffffff;
+      border: 1px solid rgba(17, 24, 39, 0.08);
+      box-shadow: 0 14px 34px rgba(15, 23, 42, 0.08);
       overflow: hidden;
     }
 
-    .testimonial-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 32px rgba(15, 23, 42, 0.18);
+    .testimonial-card:nth-child(2) {
+      background: #eef8ff;
     }
 
-    .testimonial-card.kid-quote {
-      background: linear-gradient(135deg, #c9ff4f 0%, #74ff8b 100%);
+    .testimonial-card:nth-child(3) {
+      background: #f4ffe1;
     }
 
-    .testimonial-card.parent-quote {
-      background: linear-gradient(135deg, #41aacd 0%, #00d0ff 100%);
-      color: #ffffff;
-    }
-
-    .testimonial-icon {
-      font-size: 2.2rem;
-      margin-bottom: 0.8rem;
-      display: block;
+    .testimonial-quote-mark {
+      display: inline-flex;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+      background: rgba(17, 24, 39, 0.08);
+      font-size: 1.5rem;
+      font-weight: 700;
     }
 
     .testimonial-text {
-      font-size: 1rem;
-      font-weight: 500;
-      line-height: 1.6;
-      margin-bottom: 1.2rem;
-      font-style: italic;
-      position: relative;
-      z-index: 1;
+      font-size: 0.98rem;
+      line-height: 1.7;
+      color: var(--text-main);
+      margin-bottom: 1.4rem;
     }
 
-    .testimonial-card.kid-quote .testimonial-text {
-      color: #111827;
-    }
-
-    .testimonial-card.parent-quote .testimonial-text {
-      color: rgba(255, 255, 255, 0.95);
+    .testimonial-meta {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
     }
 
     .testimonial-name {
       font-weight: 700;
       font-size: 0.95rem;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
     }
 
-    .testimonial-card.kid-quote .testimonial-name {
-      color: #111827;
+    .testimonial-context {
+      font-size: 0.82rem;
+      color: var(--text-muted);
     }
 
-    .testimonial-card.parent-quote .testimonial-name {
-      color: #ffffff;
+    @media (max-width: 1050px) {
+      .testimonials-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .testimonial-list {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      }
     }
 
-    .testimonial-badge {
-      display: inline-block;
-      padding: 0.2rem 0.6rem;
-      border-radius: 999px;
-      font-size: 0.7rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
+    @media (max-width: 640px) {
 
-    .testimonial-card.kid-quote .testimonial-badge {
-      background: rgba(17, 24, 39, 0.1);
-      color: #111827;
-    }
+      .testimonials-intro,
+      .testimonial-card {
+        padding: 1.4rem;
+      }
 
-    .testimonial-card.parent-quote .testimonial-badge {
-      background: rgba(255, 255, 255, 0.25);
-      color: #ffffff;
-    }
-
-    .testimonial-stars {
-      position: absolute;
-      font-size: 1.2rem;
-      opacity: 0.15;
-      z-index: 0;
-    }
-
-    .star-1 {
-      top: 10px;
-      right: 15px;
-      transform: rotate(15deg);
-    }
-
-    .star-2 {
-      bottom: 15px;
-      left: 20px;
-      transform: rotate(-20deg);
-    }
-
-    @media (max-width: 900px) {
       .testimonial-list {
         grid-template-columns: 1fr;
       }
@@ -1184,6 +1185,26 @@
       </div>
     </section>
 
+    <!-- TESTIMONIALS -->
+    <section class="section-testimonials" id="testimonials">
+      <div class="container">
+        <div class="testimonials-layout">
+          <div class="testimonials-intro">
+            <div class="testimonials-kicker">Parent feedback</div>
+            <h2 class="section-title">What parents are saying</h2>
+            <p class="section-subtitle">
+              We've collected some feedback from parents whose children have participated in our previous programs to
+              see
+              what they had to say. Here are a few reflections on their experiences with County Kids Club!
+            </p>
+
+          </div>
+
+          <div class="testimonial-list" id="testimonial-list"></div>
+        </div>
+      </div>
+    </section>
+
 
 
 
@@ -1301,9 +1322,8 @@
                   Do I drop my child off or do I stay with them?
                 </div>
                 <div class="faq-answer">
-                  A parent or guardian is required to <b>stay for the duration of each class</b>, but we encourage you
-                  to sit back, relax, and watch your child in action. Our instructors will lead the group and keep
-                  everyone engaged — you just get to enjoy seeing your little one move, play, and grow in confidence!
+                  A parent or guardian must <b>stay for the duration of each class.</b> You're more than welcome to jump
+                  in and help or simply sit back, relax, and watch your child play!
                 </div>
               </div>
               <div class="faq-item">
@@ -1402,6 +1422,85 @@
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
+
+    const testimonials = [
+      {
+        quote: "The sessions have all been great - kids are truly enjoying the activities and the atmosphere is so positive. I hope you are to offer more programs in the future!",
+        name: "Marina",
+        context: "Parent of a Winter 2026 participant"
+      },
+      {
+        quote: "Wow, such an amazing program! Thank you for giving up your Saturdays for us!",
+        name: "Anonymous",
+        context: "Parent of a Winter 2026 participant"
+      },
+      {
+        quote: "This program has exceeded my expectations. The program is fun and engaging for all levels with structure mixed with freedom to allow the kids to simply be kids. The instructors are kind and encouraging, and have truly created a safe space for kids to play, learn and grow.",
+        name: "Kristi",
+        context: "Parent of a Winter 2026 participant"
+      },
+      {
+        quote: "Very well run program!",
+        name: "Anonymous",
+        context: "Parent of a Winter 2026 participant"
+      }
+    ];
+
+    function selectRandomTestimonials(items, count) {
+      const shuffled = [...items];
+
+      for (let i = shuffled.length - 1; i > 0; i -= 1) {
+        const randomIndex = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[i]];
+      }
+
+      return shuffled.slice(0, Math.min(count, shuffled.length));
+    }
+
+    function renderTestimonials(items) {
+      const testimonialList = document.getElementById("testimonial-list");
+
+      if (!testimonialList) {
+        return;
+      }
+
+      const selectedTestimonials = selectRandomTestimonials(items, 3);
+
+      selectedTestimonials.forEach((testimonial) => {
+        const card = document.createElement("article");
+        card.className = "testimonial-card";
+
+        const quoteMark = document.createElement("div");
+        quoteMark.className = "testimonial-quote-mark";
+        quoteMark.textContent = '"';
+
+        const quote = document.createElement("p");
+        quote.className = "testimonial-text";
+        quote.textContent = testimonial.quote;
+
+        const meta = document.createElement("div");
+        meta.className = "testimonial-meta";
+
+        const name = document.createElement("span");
+        name.className = "testimonial-name";
+        name.textContent = testimonial.name;
+
+        const context = document.createElement("span");
+        context.className = "testimonial-context";
+        context.textContent = testimonial.context;
+
+        meta.appendChild(name);
+        meta.appendChild(context);
+
+        card.appendChild(quoteMark);
+        card.appendChild(quote);
+        card.appendChild(meta);
+
+        testimonialList.appendChild(card);
+      });
+    }
+
+    renderTestimonials(testimonials);
   </script>
 </body>
 
