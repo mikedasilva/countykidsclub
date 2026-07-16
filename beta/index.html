@@ -15,15 +15,6 @@
   <meta charset="UTF-8" />
   <title>County Kids Club – Programs for Kids in Prince Edward County</title>
   <meta name="description" content="County Kids Club offers enriching programs for kids in Prince Edward County — movement and fitness, STEM, nature, special-interest, and more. Community-run, fun-first.">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="County Kids Club – Programs for Kids in Prince Edward County">
-  <meta property="og:description" content="Community-run programs for kids in PEC — movement, STEM, nature, and more. Built around fun, skill-building, and community.">
-  <meta property="og:image" content="/images/ckc-colored-logo.png">
-  <meta property="og:url" content="https://countykidsclub.com">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="County Kids Club – Programs for Kids in Prince Edward County">
-  <meta name="twitter:description" content="Community-run programs for kids in PEC — movement, STEM, nature, and more.">
-  <meta name="twitter:image" content="/images/ckc-colored-logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="shared.css">
@@ -32,25 +23,27 @@
 <body>
   <div class="page">
 
+    <!-- BETA BANNER -->
+    <div class="beta-banner">
+      <strong>BETA</strong> — You're previewing the new County Kids Club site.
+      <a href="/">← View current site</a>
+    </div>
+
     <!-- HEADER -->
     <header>
       <div class="container">
         <nav class="nav">
-          <a href="/" class="logo">
-            <img src="images/ckc-colored-logo.png" alt="County Kids Club">
+          <a href="/beta/" class="logo">
+            <div class="logo-pill-left"></div>
+            <span class="logo-text">County Kids Club</span>
           </a>
-          <div class="nav-links" id="navLinks">
+          <div class="nav-links">
             <a href="#about">About</a>
             <a href="#programs">Programs</a>
             <a href="#team">Team</a>
             <a href="#faq">FAQ</a>
             <a href="mailto:countykidsclub@gmail.com">Contact</a>
           </div>
-          <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
         </nav>
       </div>
     </header>
@@ -59,7 +52,7 @@
     <section class="hero">
       <div class="container">
         <div class="hero-inner">
-          <img src="images/ckc-colored-logo.png" alt="County Kids Club" style="margin: 0 auto;">
+          <img src="/images/ckc-colored-logo.png" alt="County Kids Club" style="margin: 0 auto;">
           <h1 class="hero-heading">
             Programs for kids powered by<br>
             <span>community and curiosity.</span>
@@ -81,7 +74,7 @@
             </a>
           </div>
           <p class="hero-sub-link">
-            Already registered in a program? <a href="https://app.youthmodo.com/family" target="_blank">View your registrations</a>
+            Already registered? <a href="https://app.youthmodo.com/family" target="_blank">View your registrations</a>
           </p>
         </div>
       </div>
@@ -100,7 +93,7 @@
             <div class="stat-label">Kids Participated</div>
           </div>
           <div class="stat-item">
-            <div class="stat-number">3</div>
+            <div class="stat-number">4</div>
             <div class="stat-label">Program Types</div>
           </div>
           <div class="stat-item">
@@ -122,14 +115,14 @@
               where young kids could move, play, and grow together?
             </p>
             <p>
-              Our first program launched in 2025 — a Saturday morning movement class for preschoolers
+              Our first program launched in fall 2024 — a Saturday morning movement class for preschoolers
               and early graders. The response blew us away. Kids came alive, parents stayed and cheered, and
               what started as a gym class quickly became a community gathering place.
             </p>
             <p>
               Now we're expanding. County Kids Club is growing into a multi-program club with opportunities
-              across movement and fitness, STEM, nature exploration, and more — all run by local people who
-              care deeply about the kids and families in our community.
+              across movement and fitness, STEM, nature exploration, and more — all run by local people who care
+              deeply about the kids and families in our community.
             </p>
             <p>
               We keep costs as low as possible, rely on local volunteers and subject-matter experts to run
@@ -182,7 +175,7 @@
         <div class="programs-hub-header">
           <h2 class="section-title">Our Programs</h2>
           <p class="section-subtitle">
-            Three program areas, each run by local people who are passionate about helping kids grow.
+            Four program areas, each run by local people who are passionate about what they teach.
           </p>
         </div>
 
@@ -202,20 +195,6 @@
             </div>
           </a>
 
-          <!-- Open Gym -->
-          <a href="programs/open-gym.html" class="category-card">
-            <div class="category-card-accent" style="background: var(--cat-opengym);"></div>
-            <div class="category-card-body">
-              <div class="category-icon">🤸</div>
-              <div class="category-name">Open Gym</div>
-              <div class="category-desc">Unstructured free-play gym time. Kids play their own way with friends and equipment while a CKC coach keeps the space safe — parents stay and can join the fun.</div>
-            </div>
-            <div class="category-card-footer">
-              <span class="category-status status-coming">Coming Soon</span>
-              <span class="category-arrow">Learn more →</span>
-            </div>
-          </a>
-
           <!-- STEM -->
           <a href="programs/stem.html" class="category-card">
             <div class="category-card-accent" style="background: var(--cat-stem);"></div>
@@ -231,7 +210,7 @@
           </a>
 
           <!-- Nature -->
-          <!-- <a href="programs/nature.html" class="category-card">
+          <a href="programs/nature.html" class="category-card">
             <div class="category-card-accent" style="background: var(--cat-nature);"></div>
             <div class="category-card-body">
               <div class="category-icon">🌿</div>
@@ -242,9 +221,9 @@
               <span class="category-status status-coming">Coming Soon</span>
               <span class="category-arrow">Learn more →</span>
             </div>
-          </a> -->
+          </a>
 
-          <!-- Special-interest
+          <!-- Special-interest -->
           <a href="programs/special-interest.html" class="category-card">
             <div class="category-card-accent" style="background: var(--cat-niche);"></div>
             <div class="category-card-body">
@@ -256,7 +235,7 @@
               <span class="category-status status-coming">Coming Soon</span>
               <span class="category-arrow">Learn more →</span>
             </div>
-          </a> -->
+          </a>
 
         </div>
       </div>
@@ -277,7 +256,7 @@
         <div class="coach-roster">
           <div class="coach-profile">
             <div class="coach-avatar">
-              <img src="images/jess-profile.jpeg" alt="Jess">
+              <img src="/images/jess-profile.jpeg" alt="Jess">
             </div>
             <div class="coach-name">Jessica Santos</div>
             <div class="coach-bio">
@@ -288,19 +267,19 @@
           </div>
           <div class="coach-profile">
             <div class="coach-avatar">
-              <img src="images/lara-profile.jpeg" alt="Lara">
+              <img src="/images/lara-profile.jpeg" alt="Lara">
             </div>
             <div class="coach-name">Lara Hilmi</div>
             <div class="coach-bio">
-              Lara has a lifelong connection to sport that fuels her passion for helping children discover the
-              joy and benefits of movement. She believes deeply in the power of sport as a way to build
-              confidence, leadership, and lasting friendships. When not chasing after her 3 boys,
+              Lara has a lifelong connection to sport and physical activity that fuels her passion for helping
+              children discover the joy and benefits of movement. She believes deeply in the power of sport as
+              a way to build confidence, leadership, and lasting friendships. When not chasing after her 3 boys,
               she's running and cycling along the Millennium Trail.
             </div>
           </div>
           <div class="coach-profile">
             <div class="coach-avatar">
-              <img src="images/mike-profile.jpg" alt="Mike">
+              <img src="/images/mike-profile.jpg" alt="Mike">
             </div>
             <div class="coach-name">Michael Da Silva</div>
             <div class="coach-bio">
@@ -312,14 +291,14 @@
           </div>
           <div class="coach-profile">
             <div class="coach-avatar">
-              <img src="images/rob-profile.jpeg" alt="Rob">
+              <img src="/images/rob-profile.jpeg" alt="Rob">
             </div>
             <div class="coach-name">Robert Spagnola</div>
             <div class="coach-bio">
               Sport and physical activity have always been central to Rob's life. As a former athlete, youth
               sports coach, personal trainer, and owner of
               <a href="https://www.thegyminthearmoury.ca/" target="_blank" style="color: rgba(255,255,255,0.82); text-decoration: underline;">The Gym in the Armoury</a>,
-              he brings expertise and genuine enthusiasm to every group he leads.
+              he brings expertise and enthusiasm to every group he leads.
             </div>
           </div>
         </div>
@@ -436,7 +415,7 @@
         <span class="footer-powered">
           Powered by
           <a href="https://youthmodo.com" target="_blank" rel="noopener">
-            <img class="footer-logo" src="images/youthmodo.png" alt="YouthModo logo">
+            <img class="footer-logo" src="/images/youthmodo.png" alt="YouthModo logo">
           </a>
         </span>
       </div>
@@ -446,28 +425,6 @@
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
-
-    const siteHeader = document.querySelector("header");
-    const onScroll = () => siteHeader.classList.toggle("scrolled", window.scrollY > 8);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-
-    const navToggle = document.getElementById("navToggle");
-    const navLinks = document.getElementById("navLinks");
-    if (navToggle && navLinks) {
-      navToggle.addEventListener("click", () => {
-        const isOpen = navLinks.classList.toggle("open");
-        navToggle.classList.toggle("open", isOpen);
-        navToggle.setAttribute("aria-expanded", isOpen);
-      });
-      navLinks.querySelectorAll("a").forEach(link => {
-        link.addEventListener("click", () => {
-          navLinks.classList.remove("open");
-          navToggle.classList.remove("open");
-          navToggle.setAttribute("aria-expanded", "false");
-        });
-      });
-    }
 
     const testimonials = [
       { quote: "The sessions have all been great — kids are truly enjoying the activities and the atmosphere is so positive. I hope you are able to offer more programs in the future!", name: "Marina", context: "Parent of a Winter 2026 participant" },
