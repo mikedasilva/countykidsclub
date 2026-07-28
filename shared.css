@@ -163,6 +163,17 @@ header.scrolled {
   background: rgba(17,24,39,0.15);
 }
 
+.nav-links a.nav-donate {
+  color: #ffffff;
+  background: var(--accent-red);
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.nav-links a.nav-donate:hover { color: #ffffff; background: #d6432f; }
+.nav-links a.nav-donate::after { display: none; }
+
 @media (max-width: 768px) {
   .nav-toggle { display: flex; }
 
@@ -191,6 +202,12 @@ header.scrolled {
   .nav-links a::after { display: none; }
 
   .nav-divider { display: none; }
+
+  .nav-links a.nav-donate {
+    display: inline-block;
+    width: auto;
+    margin-top: 0.5rem;
+  }
 }
 
 /* ── SECTIONS ── */
