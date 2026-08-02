@@ -655,6 +655,49 @@ section { padding: 3.5rem 0; position: relative; }
 .mailing-cta-card h3 { font-size: 1.4rem; margin-bottom: 0.5rem; }
 .mailing-cta-card p { font-size: 0.95rem; color: var(--text-muted); margin-bottom: 1.5rem; }
 
+/* ── FEATURED EVENT BANNER (Hub) ── */
+.section-event-banner { padding: 0 0 2.5rem; }
+
+.event-banner-card {
+  background: linear-gradient(135deg, #1e3a8a 0%, #4a7dff 60%, #818cf8 100%);
+  border-radius: var(--radius-lg);
+  padding: 2rem 2.2rem;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem;
+  flex-wrap: wrap;
+  box-shadow: 0 18px 40px rgba(30, 58, 138, 0.28);
+}
+
+.event-banner-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.16);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 0.7rem;
+}
+
+.event-banner-body { display: flex; align-items: flex-start; gap: 1.1rem; flex: 1; min-width: 260px; }
+.event-banner-icon { font-size: 2.2rem; line-height: 1; }
+.event-banner-text h2 { font-size: 1.4rem; margin-bottom: 0.4rem; }
+.event-banner-text p { font-size: 0.92rem; color: rgba(255, 255, 255, 0.88); max-width: 520px; }
+
+.event-banner-actions { display: flex; gap: 0.8rem; flex-wrap: wrap; align-items: center; }
+
+@media (max-width: 700px) {
+  .event-banner-card { padding: 1.6rem; }
+  .event-banner-actions { width: 100%; }
+  .event-banner-actions a { flex: 1; }
+  .event-banner-actions button { width: 100%; }
+}
+
 /* ── COMING SOON BLOCK ── */
 .coming-soon-block {
   background: #ffffff;
