@@ -303,6 +303,28 @@ section { padding: 3.5rem 0; position: relative; }
   margin: 0 auto 0.85rem;
 }
 
+.hero-hype-banner {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1.6rem;
+  padding: 0.55rem 1.1rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #dbeafe 0%, #60a5fa 100%);
+  color: #1e3a8a;
+  font-size: 0.88rem;
+  font-weight: 600;
+  box-shadow: 0 8px 22px rgba(74, 125, 255, 0.4);
+  animation: hype-pulse 2.4s ease-in-out infinite;
+}
+
+.hero-hype-banner strong { font-weight: 800; }
+
+@keyframes hype-pulse {
+  0%, 100% { box-shadow: 0 8px 22px rgba(74, 125, 255, 0.4); }
+  50% { box-shadow: 0 8px 26px rgba(74, 125, 255, 0.7); }
+}
+
 .hero-cta-group {
   margin-top: 1.8rem;
   display: flex;
