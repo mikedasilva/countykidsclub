@@ -288,6 +288,12 @@ section { padding: 3.5rem 0; position: relative; }
   text-align: center;
 }
 
+.hero-inner > img {
+  width: 340px;
+  max-width: 70%;
+  height: auto;
+}
+
 .hero-heading {
   font-size: 3rem;
   line-height: 1.1;
