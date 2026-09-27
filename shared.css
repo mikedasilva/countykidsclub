@@ -234,6 +234,14 @@ section { padding: 3.5rem 0; position: relative; }
 
 .btn-primary:hover { background: #1f2937; }
 
+.btn-primary:disabled,
+.btn-white:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.btn-primary:disabled:hover { background: #111827; }
+
 .btn-outline {
   display: inline-block;
   padding: 0.85rem 1.4rem;
