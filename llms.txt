@@ -1,0 +1,19 @@
+# County Kids Club
+
+> Community-run, not-for-profit programs for kids in Prince Edward County, Ontario, Canada — movement and fitness, soccer, Open Gym, running events, and more.
+
+## Programs
+
+- [Programs (markdown)](https://countykidsclub.com/programs.md): Every current program with ages, schedules, locations, costs, registration status, and links. Continuously updated; start here.
+
+## Pages
+
+- [Home](https://countykidsclub.com/): Overview, team, and FAQ
+- [Movement & Fitness](https://countykidsclub.com/programs/movement)
+- [Soccer Skills and Drills](https://countykidsclub.com/programs/soccer)
+- [Soccer Scrimmage](https://countykidsclub.com/programs/soccer-scrimmage)
+- [Open Gym](https://countykidsclub.com/programs/open-gym)
+- [Running Events](https://countykidsclub.com/programs/running-events)
+- [STEM & Robotics](https://countykidsclub.com/programs/stem)
+- [Donate](https://countykidsclub.com/donate.html)
+- [Code of Conduct](https://countykidsclub.com/code-of-conduct.html)
