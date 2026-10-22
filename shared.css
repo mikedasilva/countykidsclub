@@ -914,6 +914,16 @@ section { padding: 3.5rem 0; position: relative; }
   color: rgba(255, 255, 255, 0.72);
 }
 
+.event-video video {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  background: #000;
+}
+
 /* ── INSTRUCTORS (Program pages) ── */
 .section-instructors {
   background: var(--primary-deep);
