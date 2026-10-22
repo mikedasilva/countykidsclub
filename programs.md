@@ -119,6 +119,8 @@ and comfort.
   The remaining Fall 2026 dates were cancelled and CKC is experimenting with a drop-in Soccer
   Scrimmage in that same Sunday late-morning time slot at PECI instead
   (https://countykidsclub.com/programs/soccer-scrimmage). Open Gym may return for future dates.
+- Families interested in more Open Gym sessions should email countykidsclub@gmail.com — interest
+  helps CKC decide whether to bring it back.
 - Join the mailing list to hear if it returns.
 
 ### STEM & Robotics (coming soon)
