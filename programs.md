@@ -27,7 +27,7 @@ Programs are built around fun, skill-building, and community, and are priced as 
 | Structured, coach-led active play for ages 5–7 (JK–Grade 1) | Movement & Fitness — Mega Movers |
 | Coached soccer skill development for ages 7–10 | Soccer Skills and Drills |
 | Just playing soccer games, no drills or lessons | Soccer Scrimmage (drop-in) |
-| Unstructured family free play in a gym, kids 10 and under | Open Gym (drop-in) |
+| Unstructured family free play in a gym, kids 10 and under | Open Gym (paused — none scheduled right now) |
 | Kids' fun runs and races | Running Events (none scheduled right now) |
 | STEM, coding, or robotics | STEM & Robotics (coming soon — not running yet) |
 
@@ -100,22 +100,6 @@ and comfort.
 - **Ages and cost:** listed on the registration portal
 - **Bring:** running shoes, shin guards, comfy clothes, water bottle. Balls and equipment are provided.
 
-### Open Gym (drop-in, Fall 2026)
-
-- **Page:** https://countykidsclub.com/programs/open-gym
-- **Ages:** 10 and under
-- **What it is:** Unstructured free play in the gym — no coach-led activities. CKC staff set up,
-  help with equipment, and watch general safety. Kids and families direct their own play.
-- **Schedule:** Sundays 11:15 AM–12:45 PM (1.5 hrs) — October 18, October 25, November 1,
-  November 8, 2026
-- **Location:** PECI, Gym A — 41 Barker Street, Picton, ON K0K 2T0
-- **Capacity:** 40 people total per session (kids and adults)
-- **Cost:** $5 per person, per session — everyone attending pays, kids and adults alike
-- **Status:** Registration open — https://countykidsclub.youthmodo.com/register?programId=8b8e2739-c721-457c-bcd0-54e508a9db9f
-  — or drop in on the day until the session reaches 40 people
-- **Parent/guardian:** must attend, stay the whole session, and supervise their own child(ren)
-- **Bring:** indoor running shoes, comfy clothes, water bottle
-
 ## Not currently running
 
 ### Running Events
@@ -125,6 +109,17 @@ and comfort.
 - **No events are scheduled right now.** The most recent was the Kids 1K Run on Saturday,
   October 3, 2026, with The County Marathon (https://countykidsclub.com/kids-1k-run).
 - Join the mailing list to hear about the next one.
+
+### Open Gym (paused)
+
+- **Page:** https://countykidsclub.com/programs/open-gym
+- Unstructured free play in the gym for kids 10 and under, with CKC staff on site for safety and
+  a parent or guardian staying the whole session.
+- **No sessions are scheduled right now.** Open Gym ran once, on Sunday, October 18, 2026, at PECI.
+  The remaining Fall 2026 dates were cancelled and CKC is experimenting with a drop-in Soccer
+  Scrimmage in that same Sunday late-morning time slot at PECI instead
+  (https://countykidsclub.com/programs/soccer-scrimmage). Open Gym may return for future dates.
+- Join the mailing list to hear if it returns.
 
 ### STEM & Robotics (coming soon)
 
