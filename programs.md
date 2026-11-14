@@ -26,7 +26,7 @@ Programs are built around fun, skill-building, and community, and are priced as 
 | Structured, coach-led active play for ages 3–4 | Movement & Fitness — Junior Movers (sold out — waitlist only) |
 | Structured, coach-led active play for ages 5–7 (JK–Grade 1) | Movement & Fitness — Mega Movers (sold out — waitlist only) |
 | Coached soccer skill development for ages 7–10 | Soccer Skills and Drills (sold out — waitlist only) |
-| Just playing soccer games, no drills or lessons | Soccer Scrimmage (drop-in) |
+| Just playing soccer games, no drills or lessons | Soccer Scrimmage (drop-in; none scheduled right now) |
 | Unstructured family free play in a gym, kids 10 and under | Open Gym (paused — none scheduled right now) |
 | Kids' fun runs and races | Running Events (none scheduled right now) |
 | STEM, coding, or robotics | STEM & Robotics (coming soon — not running yet) |
@@ -85,21 +85,6 @@ and comfort.
 - **Bring:** indoor running shoes (non-marking), shin guards, comfy clothes, water bottle. Balls and
   equipment are provided.
 
-### Soccer Scrimmage (drop-in)
-
-- **Page:** https://countykidsclub.com/programs/soccer-scrimmage
-- **What it is:** Open drop-in soccer games for kids who just want to play. Coaches referee and
-  manage the game (balancing teams, keeping score, keeping play safe) but do not teach drills.
-  This is the difference from Soccer Skills and Drills.
-- **Commitment:** drop-in, no multi-week commitment. Register for the sessions you want to attend.
-- **Experience:** none needed
-- **Schedule (sessions announced so far):** Sunday, October 25, 2026, 11:15 AM–12:00 PM (45 min).
-  More Late Fall 2026 sessions to be added.
-- **Location:** PECI, Gym B — 41 Barker Street, Picton, ON K0K 2T0
-- **Status:** Registration open — https://countykidsclub.youthmodo.com/register
-- **Ages and cost:** listed on the registration portal
-- **Bring:** running shoes, shin guards, comfy clothes, water bottle. Balls and equipment are provided.
-
 ## Not currently running
 
 ### Running Events
@@ -109,6 +94,15 @@ and comfort.
 - **No events are scheduled right now.** The most recent was the Kids 1K Run on Saturday,
   October 3, 2026, with The County Marathon (https://countykidsclub.com/kids-1k-run).
 - Join the mailing list to hear about the next one.
+
+### Soccer Scrimmage (drop-in)
+
+- **Page:** https://countykidsclub.com/programs/soccer-scrimmage
+- Open drop-in soccer games for kids who just want to play. Coaches referee and manage the game
+  (balancing teams, keeping score, keeping play safe) but do not teach drills. This is the
+  difference from Soccer Skills and Drills. No experience needed.
+- **No sessions are scheduled right now.** The most recent was Sunday, October 25, 2026, at PECI.
+- Join the mailing list to hear when the next session is announced.
 
 ### Open Gym (paused)
 
