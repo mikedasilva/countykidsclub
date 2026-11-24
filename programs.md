@@ -45,7 +45,7 @@ Programs are built around fun, skill-building, and community, and are priced as 
 - **Location:** PECI, Gym B — 41 Barker Street, Picton, ON K0K 2T0
 - **Capacity:** 23 spots
 - **Cost:** $55 per child for the 4-week program
-- **Status:** Registration open at https://countykidsclub.youthmodo.com/register
+- **Status:** Registration open at https://countykidsclub.youthmodo.com/register?programId=c468ff82-9f52-4ea4-9245-55825c494e34
 - **Parent/guardian:** must stay for the whole class (welcome to join in)
 - **Bring:** indoor running shoes, comfy clothes, water bottle. A healthy snack is provided after class.
 
@@ -59,7 +59,7 @@ Programs are built around fun, skill-building, and community, and are priced as 
 - **Location:** PECI, Gym B — 41 Barker Street, Picton, ON K0K 2T0
 - **Capacity:** 23 spots
 - **Cost:** $55 per child for the 4-week program
-- **Status:** Registration open at https://countykidsclub.youthmodo.com/register
+- **Status:** Registration open at https://countykidsclub.youthmodo.com/register?programId=c44f7045-1450-4759-9bf2-22180562de16
 - **Parent/guardian:** must stay for the whole class
 - **Bring:** indoor running shoes, comfy clothes, water bottle. A healthy snack is provided after class.
 
@@ -108,7 +108,7 @@ and comfort.
 - **Location:** PECI, Gym B — 41 Barker Street, Picton, ON K0K 2T0
 - **Capacity:** 15 spots
 - **Cost:** $55 per child for the 4-week program
-- **Status:** Registration open at https://countykidsclub.youthmodo.com/register
+- **Status:** Registration open at https://countykidsclub.youthmodo.com/register?programId=29d5f499-7bfe-47cb-bd1e-a97a402263f7
 - **Coaches:** led by Coach Alexa Gough (collegiate-level player, PECSA youth coach since 2023),
   with 2–3 coaches per session
 - **Parent/guardian:** welcome to stay and watch, or drop off
@@ -144,7 +144,7 @@ and comfort.
 - **Location:** PECI, Gym C — 41 Barker Street, Picton, ON K0K 2T0
 - **Capacity:** 12 spots
 - **Cost:** $5 per child, per session
-- **Status:** Registration open at https://countykidsclub.youthmodo.com/register
+- **Status:** Registration open at https://countykidsclub.youthmodo.com/register?programId=5b030944-7af2-44b4-a619-b02d650fbfbd
 - **Parent/guardian:** must attend and stay for the whole session (welcome to join in)
 - **Bring:** indoor running shoes, comfy clothes, water bottle
 - Monday Open Gym is an ongoing series — sessions continue across seasons rather than being named by season.
