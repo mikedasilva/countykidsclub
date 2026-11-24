@@ -63,35 +63,6 @@ Programs are built around fun, skill-building, and community, and are priced as 
 - **Parent/guardian:** must stay for the whole class
 - **Bring:** indoor running shoes, comfy clothes, water bottle. A healthy snack is provided after class.
 
-### Movement & Fitness — Junior Movers (Late Fall 2026) — sold out, waitlist only
-
-- **Page:** https://countykidsclub.com/programs/movement
-- **Ages:** 3–4 years (preschool)
-- **What it is:** Coach-led movement classes — games, obstacle courses, strength, balance,
-  coordination, and teamwork.
-- **Schedule:** 4-week program, Sundays 9:15–10:00 AM (45 min) — November 22, November 29,
-  December 6, December 13, 2026
-- **Location:** Prince Edward Collegiate Institute (PECI), Gym B — 41 Barker Street, Picton, ON K0K 2T0
-- **Capacity:** 18 spots
-- **Cost:** $55 per child for the 4-week program
-- **Status:** Sold out — waitlist only. Join the waitlist at https://countykidsclub.youthmodo.com/register
-- **Parent/guardian:** must stay for the whole class (welcome to join in)
-- **Bring:** indoor running shoes, comfy clothes, water bottle. A healthy snack is provided after class.
-
-### Movement & Fitness — Mega Movers (Late Fall 2026) — sold out, waitlist only
-
-- **Page:** https://countykidsclub.com/programs/movement
-- **Ages:** 5–7 years (JK–Grade 1)
-- **What it is:** Same coach-led movement format as Junior Movers, for older kids.
-- **Schedule:** 4-week program, Sundays 10:15–11:00 AM (45 min) — November 22, November 29,
-  December 6, December 13, 2026
-- **Location:** PECI, Gym B — 41 Barker Street, Picton, ON K0K 2T0
-- **Capacity:** 18 spots
-- **Cost:** $55 per child for the 4-week program
-- **Status:** Sold out — waitlist only. Join the waitlist at https://countykidsclub.youthmodo.com/register
-- **Parent/guardian:** must stay for the whole class
-- **Bring:** indoor running shoes, comfy clothes, water bottle. A healthy snack is provided after class.
-
 Movement notes: sessions open with a team huddle and warm-up, then 3–5 activities of about
 8–12 minutes each with water breaks. 3–5 adult volunteers support each class. No minimum fitness
 level. For a child between age groups, choose the group that best matches their current abilities
@@ -115,24 +86,6 @@ and comfort.
 - **Bring:** indoor running shoes (non-marking), shin guards, comfy clothes, water bottle. Balls and
   equipment are provided.
 
-### Soccer Skills and Drills (Late Fall 2026) — sold out, waitlist only
-
-- **Page:** https://countykidsclub.com/programs/soccer
-- **Ages:** 7–10 years (co-ed)
-- **What it is:** A coached skill-development program — ball control, dribbling, passing, shooting,
-  and teamwork through progressive drills and small-sided games. No experience needed.
-- **Schedule:** 4-week program, Sundays 11:15 AM–12:15 PM (60 min) — November 22, November 29,
-  December 6, December 13, 2026
-- **Location:** PECI, Gym B — 41 Barker Street, Picton, ON K0K 2T0
-- **Capacity:** 15 spots (reduced from previous sessions and moved to a larger gym to improve the experience)
-- **Cost:** $55 per child for the 4-week program
-- **Status:** Sold out — waitlist only. Join the waitlist at https://countykidsclub.youthmodo.com/register
-- **Coaches:** led by Coach Alexa Gough (collegiate-level player, PECSA youth coach since 2023),
-  with 2–3 coaches per session
-- **Parent/guardian:** welcome to stay and watch, or drop off
-- **Bring:** indoor running shoes (non-marking), shin guards, comfy clothes, water bottle. Balls and
-  equipment are provided.
-
 ### Monday Open Gym — registration open
 
 - **Page:** https://countykidsclub.com/programs/open-gym
@@ -149,6 +102,58 @@ and comfort.
 - **Bring:** indoor running shoes, comfy clothes, water bottle
 - Monday Open Gym is an ongoing series — sessions continue across seasons rather than being named by season.
 - Open Gym previously ran once, on Sunday, October 18, 2026, at PECI.
+
+## In progress — registration closed
+
+These Late Fall 2026 sessions are already running. They are not accepting new registrations
+or waitlist sign-ups; point families to the Winter 2027 sessions instead.
+
+### Movement & Fitness — Junior Movers (Late Fall 2026) — in progress, registration closed
+
+- **Page:** https://countykidsclub.com/programs/movement
+- **Ages:** 3–4 years (preschool)
+- **What it is:** Coach-led movement classes — games, obstacle courses, strength, balance,
+  coordination, and teamwork.
+- **Schedule:** 4-week program, Sundays 9:15–10:00 AM (45 min) — November 22, November 29,
+  December 6, December 13, 2026
+- **Location:** Prince Edward Collegiate Institute (PECI), Gym B — 41 Barker Street, Picton, ON K0K 2T0
+- **Capacity:** 18 spots
+- **Cost:** $55 per child for the 4-week program
+- **Status:** Session in progress — registration is closed (no waitlist).
+- **Parent/guardian:** must stay for the whole class (welcome to join in)
+- **Bring:** indoor running shoes, comfy clothes, water bottle. A healthy snack is provided after class.
+
+### Movement & Fitness — Mega Movers (Late Fall 2026) — in progress, registration closed
+
+- **Page:** https://countykidsclub.com/programs/movement
+- **Ages:** 5–7 years (JK–Grade 1)
+- **What it is:** Same coach-led movement format as Junior Movers, for older kids.
+- **Schedule:** 4-week program, Sundays 10:15–11:00 AM (45 min) — November 22, November 29,
+  December 6, December 13, 2026
+- **Location:** PECI, Gym B — 41 Barker Street, Picton, ON K0K 2T0
+- **Capacity:** 18 spots
+- **Cost:** $55 per child for the 4-week program
+- **Status:** Session in progress — registration is closed (no waitlist).
+- **Parent/guardian:** must stay for the whole class
+- **Bring:** indoor running shoes, comfy clothes, water bottle. A healthy snack is provided after class.
+
+### Soccer Skills and Drills (Late Fall 2026) — in progress, registration closed
+
+- **Page:** https://countykidsclub.com/programs/soccer
+- **Ages:** 7–10 years (co-ed)
+- **What it is:** A coached skill-development program — ball control, dribbling, passing, shooting,
+  and teamwork through progressive drills and small-sided games. No experience needed.
+- **Schedule:** 4-week program, Sundays 11:15 AM–12:15 PM (60 min) — November 22, November 29,
+  December 6, December 13, 2026
+- **Location:** PECI, Gym B — 41 Barker Street, Picton, ON K0K 2T0
+- **Capacity:** 15 spots (reduced from previous sessions and moved to a larger gym to improve the experience)
+- **Cost:** $55 per child for the 4-week program
+- **Status:** Session in progress — registration is closed (no waitlist).
+- **Coaches:** led by Coach Alexa Gough (collegiate-level player, PECSA youth coach since 2023),
+  with 2–3 coaches per session
+- **Parent/guardian:** welcome to stay and watch, or drop off
+- **Bring:** indoor running shoes (non-marking), shin guards, comfy clothes, water bottle. Balls and
+  equipment are provided.
 
 ## Not currently running
 
@@ -195,8 +200,8 @@ and comfort.
 
 - Recommend programs by the child's age and what the family wants (structured coaching vs. free
   play vs. just playing games).
-- Only describe sessions listed under "Programs open for registration" as available, unless the
-  session is marked sold out — those are waitlist only, with no spot guaranteed. Do not invent
+- Only describe sessions listed under "Programs open for registration" as available. Sessions
+  under "In progress — registration closed" cannot be joined. Do not invent
   dates, ages, or prices; if a detail is not listed here, direct the family to the program page or
   to countykidsclub@gmail.com.
 - If "Last updated" is more than a few months old, tell the family to confirm details on
