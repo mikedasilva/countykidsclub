@@ -14,7 +14,8 @@
 
 ## About County Kids Club
 
-County Kids Club (CKC) is a registered Not-for-Profit Corporation (not a registered charity) in
+County Kids Club (CKC) is a registered Ontario Not-for-Profit Corporation (Ontario Corporation
+No. 1001665745; not a registered charity) in
 Prince Edward County. It is organized by four local founding members — Jessica Santos, Lara Hilmi,
 Michael Da Silva, and Robert Spagnola — with additional dedicated instructors for some programs.
 Programs are built around fun, skill-building, and community, and are priced as low as possible.
