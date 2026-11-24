@@ -103,7 +103,7 @@ and comfort.
 - **Ages:** 7–10 years (co-ed)
 - **What it is:** A coached skill-development program — ball control, dribbling, passing, shooting,
   and teamwork through progressive drills and small-sided games. No experience needed.
-- **Schedule:** 4-week program, Sundays 11:15 AM–12:00 PM (45 min) — January 3, January 10,
+- **Schedule:** 4-week program, Sundays 11:15 AM–12:15 PM (60 min) — January 3, January 10,
   January 17, January 24, 2027
 - **Location:** PECI, Gym B — 41 Barker Street, Picton, ON K0K 2T0
 - **Capacity:** 15 spots
