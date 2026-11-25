@@ -40,8 +40,8 @@ Programs are built around fun, skill-building, and community, and are priced as 
 - **Ages:** 3–4 years (preschool)
 - **What it is:** Coach-led movement classes — games, obstacle courses, strength, balance,
   coordination, and teamwork.
-- **Schedule:** 4-week program, Sundays 9:15–10:00 AM (45 min) — January 3, January 10,
-  January 17, January 24, 2027
+- **Schedule:** 4-week program, Sundays 9:15–10:00 AM (45 min) — January 10, January 17,
+  January 24, January 31, 2027
 - **Location:** PECI, Gym B — 41 Barker Street, Picton, ON K0K 2T0
 - **Capacity:** 23 spots
 - **Cost:** $55 per child for the 4-week program
@@ -54,8 +54,8 @@ Programs are built around fun, skill-building, and community, and are priced as 
 - **Page:** https://countykidsclub.com/programs/movement
 - **Ages:** 5–7 years (JK–Grade 1)
 - **What it is:** Same coach-led movement format as Junior Movers, for older kids.
-- **Schedule:** 4-week program, Sundays 10:15–11:00 AM (45 min) — January 3, January 10,
-  January 17, January 24, 2027
+- **Schedule:** 4-week program, Sundays 10:15–11:00 AM (45 min) — January 10, January 17,
+  January 24, January 31, 2027
 - **Location:** PECI, Gym B — 41 Barker Street, Picton, ON K0K 2T0
 - **Capacity:** 23 spots
 - **Cost:** $55 per child for the 4-week program
@@ -74,8 +74,8 @@ and comfort.
 - **Ages:** 7–10 years (co-ed)
 - **What it is:** A coached skill-development program — ball control, dribbling, passing, shooting,
   and teamwork through progressive drills and small-sided games. No experience needed.
-- **Schedule:** 4-week program, Sundays 11:15 AM–12:15 PM (60 min) — January 3, January 10,
-  January 17, January 24, 2027
+- **Schedule:** 4-week program, Sundays 11:15 AM–12:15 PM (60 min) — January 10, January 17,
+  January 24, January 31, 2027
 - **Location:** PECI, Gym B — 41 Barker Street, Picton, ON K0K 2T0
 - **Capacity:** 15 spots
 - **Cost:** $55 per child for the 4-week program
