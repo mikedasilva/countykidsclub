@@ -32,6 +32,8 @@
   <style>
     .parts-list { margin-top: 0.85rem; padding-left: 1.2rem; font-size: 0.96rem; color: var(--text-muted); }
     .parts-list li + li { margin-top: 0.3rem; }
+    .expect-grid { grid-template-columns: 1fr 1fr; }
+    @media (max-width: 900px) { .expect-grid { grid-template-columns: 1fr; } }
   </style>
   <script type="application/ld+json">
   {
@@ -389,7 +391,7 @@
     <!-- WHAT TO EXPECT / IS IT RIGHT FOR MY CHILD -->
     <section class="section-about-club">
       <div class="container">
-        <div class="about-club-grid" style="grid-template-columns: 1fr 1fr;">
+        <div class="about-club-grid expect-grid">
           <div class="values-card">
             <h3>What to expect on the day</h3>
             <ul class="values-list">
