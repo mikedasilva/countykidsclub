@@ -14,21 +14,25 @@
 
   <meta charset="UTF-8" />
   <title>STEM &amp; Robotics Programs – County Kids Club</title>
-  <meta name="description" content="Hands-on STEM and robotics programs for kids in Prince Edward County — science experiments, coding, and engineering challenges. Coming soon from County Kids Club.">
+  <meta name="description" content="Robotics Workshop for kids ages 7–12 in Prince Edward County — build, wire, and program your own line-following robot, then take it home. Saturday, January 9, 2027, 1–4 PM at the Picton Library.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="STEM &amp; Robotics Programs – County Kids Club">
-  <meta property="og:description" content="Hands-on STEM and robotics programs for kids in Prince Edward County — science experiments, coding, and engineering challenges. Coming soon from County Kids Club.">
+  <meta property="og:description" content="Robotics Workshop for kids ages 7–12 in Prince Edward County — build, wire, and program your own line-following robot, then take it home. Saturday, January 9, 2027, 1–4 PM at the Picton Library.">
   <meta property="og:image" content="https://countykidsclub.com/images/logo-main-og.png">
   <meta property="og:image:width" content="1000">
   <meta property="og:image:height" content="705">
   <meta property="og:url" content="https://countykidsclub.com/programs/stem">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="STEM &amp; Robotics Programs – County Kids Club">
-  <meta name="twitter:description" content="Hands-on STEM and robotics programs for kids in Prince Edward County — science experiments, coding, and engineering challenges. Coming soon from County Kids Club.">
+  <meta name="twitter:description" content="Robotics Workshop for kids ages 7–12 in Prince Edward County — build, wire, and program your own line-following robot, then take it home. Saturday, January 9, 2027, 1–4 PM at the Picton Library.">
   <meta name="twitter:image" content="https://countykidsclub.com/images/logo-main-og.png">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../shared.css?v=4">
+  <style>
+    .parts-list { margin-top: 0.85rem; padding-left: 1.2rem; font-size: 0.96rem; color: var(--text-muted); }
+    .parts-list li + li { margin-top: 0.3rem; }
+  </style>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -38,7 +42,7 @@
         "@id": "https://countykidsclub.com/programs/stem",
         "url": "https://countykidsclub.com/programs/stem",
         "name": "STEM & Robotics – County Kids Club",
-        "description": "Hands-on STEM and robotics programs for kids in Prince Edward County — science experiments, coding, and engineering challenges. Coming soon from County Kids Club.",
+        "description": "Robotics Workshop for kids ages 7–12 in Prince Edward County — build, wire, and program your own line-following robot, then take it home. Saturday, January 9, 2027, 1–4 PM at the Picton Library.",
         "isPartOf": {
           "@id": "https://countykidsclub.com/#website"
         },
@@ -68,6 +72,41 @@
             "item": "https://countykidsclub.com/programs/stem"
           }
         ]
+      },
+      {
+        "@type": "Event",
+        "name": "Robotics Workshop: Build a Line-Following Robot — Winter 2027",
+        "description": "One-time, 3-hour hands-on robotics workshop for kids ages 7–12. Each child builds, wires, and programs their own line-following robot using LEGO and real electronic components, and takes it home. Saturday, January 9, 2027, 1:00–4:00 PM. Limited to 8 kids.",
+        "startDate": "2027-01-09T13:00:00-05:00",
+        "endDate": "2027-01-09T16:00:00-05:00",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+          "@type": "Place",
+          "name": "Picton Library (County of Prince Edward Public Library) — Main Floor",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "208 Main Street",
+            "addressLocality": "Picton",
+            "addressRegion": "ON",
+            "postalCode": "K0K 2T0",
+            "addressCountry": "CA"
+          }
+        },
+        "image": "https://countykidsclub.com/images/logo-main-og.png",
+        "organizer": {
+          "@id": "https://countykidsclub.com/#organization"
+        },
+        "typicalAgeRange": "7-12",
+        "maximumAttendeeCapacity": 8,
+        "offers": {
+          "@type": "Offer",
+          "price": "65",
+          "priceCurrency": "CAD",
+          "availability": "https://schema.org/PreOrder",
+          "url": "https://countykidsclub.com/programs/stem"
+        },
+        "url": "https://countykidsclub.com/programs/stem"
       }
     ]
   }
@@ -115,13 +154,383 @@
           <div class="program-hero-icon">🤖</div>
           <h1 class="program-hero-heading">STEM &amp; Robotics</h1>
           <p class="program-hero-text">
-            Hands-on science, coding, and robotics challenges that spark curiosity and teach kids to think
-            like engineers and problem-solvers — no prior experience required.
+            Our first robotics program is here! Kids ages 7–12 build, wire, and program their own
+            line-following robot and take it home to keep experimenting.
           </p>
           <div class="program-hero-ctas">
+            <!-- Registration opens soon: swap back to https://countykidsclub.youthmodo.com/register?programId=e6d63796-2c8b-4738-8315-a2df68934c77 with "Register Now" -->
             <a href="https://countykidsclub.youthmodo.com/mailing-list?list=06232d50-2b18-40d9-9c75-bbaf16a455c7" target="_blank">
-              <button class="btn-white">Get Notified When We Launch</button>
+              <button class="btn-white">Registration Coming Soon — Get Notified</button>
             </a>
+            <a href="#programs">
+              <button class="btn-white-outline">Workshop Details</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKSHOP OVERVIEW -->
+    <section class="section-about-club">
+      <div class="container">
+        <div class="about-club-grid">
+          <div class="about-club-text">
+            <h2 class="section-title">Robotics Workshop: Build a Line-Following Robot</h2>
+            <p>
+              In this hands-on class, each child builds their own line-following robot - a small vehicle
+              that uses sensors to "see" a line on the ground and steer itself along it. Kids use the provided LEGO
+              pieces to build the frame of the vehicle, then bring it to life with real electronic
+              components including:
+            </p>
+            <ul class="parts-list">
+              <li>TT motors to drive the wheels</li>
+              <li>An ATmega328P microcontroller — the robot's "brain"</li>
+              <li>Stepper motor drivers</li>
+              <li>IR sensors to detect the line</li>
+              <li>Switches, wires, batteries, and breadboards</li>
+            </ul>
+            <p style="margin-top: 0.85rem;">
+              Along the way, the kids will learn basic electronics, how to troubleshoot when something doesn't
+              work, and the process of taking an idea, hardware, and software and turning it into something that works. They'll also learn how to change the program to change how the robot behaves, and how to keep experimenting with the design and the program at home.
+            </p>
+            <p>
+              The goal is for every child to leave with a <strong>fully working vehicle</strong> and all
+              the resources they need to keep experimenting at home on
+              their own or with a parent's help.
+            </p>
+          </div>
+          <div>
+            <div class="values-card">
+              <h3>What's included</h3>
+              <ul class="values-list">
+                <li>
+                  <div class="value-icon" style="background: rgba(99,102,241,0.14);">🧰</div>
+                  <div class="value-text"><strong>A ~$30 kit of parts, theirs to keep</strong>All the electronics, wires, batteries, LEGO pieces, etc. are included in the price.</div>
+                </li>
+                <li>
+                  <div class="value-icon" style="background: rgba(99,102,241,0.14);">🚗</div>
+                  <div class="value-text"><strong>A working robot to take home</strong>Each participant builds their own vehicle and keeps it.</div>
+                </li>
+                <li>
+                  <div class="value-icon" style="background: rgba(99,102,241,0.14);">🔌</div>
+                  <div class="value-text"><strong>Real, reusable components</strong>Very common electronic parts that can be used for other projects and experiments.</div>
+                </li>
+                <li>
+                  <div class="value-icon" style="background: rgba(99,102,241,0.14);">📘</div>
+                  <div class="value-text"><strong>Take-home resources</strong>Everything needed to keep tinkering with the design and the program at home. <span >An email will be sent following the workshop with all the necessary information and links.</span></div>
+                </li>
+                <li>
+                  <div class="value-icon" style="background: rgba(99,102,241,0.14);">👩‍🏫</div>
+                  <div class="value-text"><strong>Small group, 2 instructors</strong>Limited to 8 kids so everyone gets hands-on help.</div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTO GALLERY -->
+    <section class="section-gallery" id="gallery">
+      <div class="container">
+        <div class="features-title">
+          <h2 class="section-title">The robot kids will build</h2>
+          <p class="section-subtitle" style="margin: 0 auto; max-width: 520px;">
+            A look at the line-following robot and the kit of parts each child gets to keep.
+          </p>
+        </div>
+
+        <div class="gallery-grid" style="max-width: 900px; margin: 0 auto;">
+          <figure style="margin: 0;">
+            <div class="gallery-item" style="aspect-ratio: auto;">
+              <img src="../images/stem/finished-car.jpg" alt="A finished line-following robot: LEGO frame with a breadboard, microcontroller, motor driver, battery pack, and wheels" width="1142" height="1200" loading="lazy">
+            </div>
+            <figcaption style="margin-top: 0.7rem; font-size: 0.88rem; color: var(--text-muted); text-align: center;">
+              A finished line-following robot.
+            </figcaption>
+          </figure>
+          <figure style="margin: 0;">
+            <div class="gallery-item" style="aspect-ratio: auto;">
+              <img src="../images/stem/most-parts.jpg" alt="Robot kit parts laid out: wheels, TT motors, battery holder, microcontroller, IR sensors, motor driver, switch, breadboard, and jumper wires" width="1139" height="1200" loading="lazy">
+            </div>
+            <figcaption style="margin-top: 0.7rem; font-size: 0.88rem; color: var(--text-muted); text-align: center;">
+              Most of the kit each child takes home. The LEGO pieces needed for the frame are also
+              included, but aren't shown here.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT KIDS WILL LEARN -->
+    <section class="section-features">
+      <div class="container">
+        <div class="features-title">
+          <h2 class="section-title">What kids will learn</h2>
+          <p class="section-subtitle" style="margin: 0 auto; max-width: 520px;">
+            Real engineering skills, taught hands-on, with a working robot at the end to prove it.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-icon icon-purple">⚡</div>
+            <h3>Basic electronics</h3>
+            <p>
+              How motors, sensors, switches, and batteries connect on a breadboard — and what each part
+              does to make the robot move.
+            </p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon icon-blue">💻</div>
+            <h3>The programming process</h3>
+            <p>
+              How a microcontroller is programmed to read its sensors and steer the motors, and how to
+              change the program to change how the robot behaves. (Note - code will all be provided, no coding or computer experience is required.)
+            </p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon icon-orange">🔧</div>
+            <h3>Troubleshooting</h3>
+            <p>
+              What to do when something doesn't work: checking connections, testing one piece at a time,
+              and thinking like an engineer to find and fix the problem.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURRENT PROGRAMS -->
+    <section class="section-programs" id="programs">
+      <div class="container">
+        <h2 class="section-title" style="margin-bottom: 0.4rem;">Current &amp; Upcoming Programs</h2>
+        <p class="section-subtitle" style="margin-bottom: 2rem; color: #111827;">
+          Our first STEM &amp; Robotics program — a one-time, 3-hour workshop organized by County Kids Club.
+        </p>
+
+        <div class="programs-grid">
+
+          <!-- Robotics Workshop — Winter 2027 -->
+          <div class="schedule-card">
+            <h3 class="schedule-title">Winter 2027 — Robotics Workshop: Line-Following Robot</h3>
+            <div class="schedule-row">
+              <div class="schedule-label">Ages</div>
+              <div>7–12 years</div>
+            </div>
+            <div class="schedule-row">
+              <div class="schedule-label">Capacity</div>
+              <div>8 spots</div>
+            </div>
+            <div class="schedule-row">
+              <div class="schedule-label">Instructors</div>
+              <div>2 instructors</div>
+            </div>
+            <div class="schedule-row">
+              <div class="schedule-label">Schedule</div>
+              <div>
+                One-time workshop<br>
+                Saturday 1:00–4:00 PM (3 hours)<br>
+                January 9, 2027
+              </div>
+            </div>
+            <div class="schedule-row">
+              <div class="schedule-label">Location</div>
+              <div>
+                <a href="https://www.google.com/maps/search/?api=1&query=Picton+Library+208+Main+Street+Picton+ON" target="_blank" style="text-decoration: underline;">
+                  Picton Library — Main Floor<br>
+                  208 Main Street<br>
+                  Picton, ON K0K 2T0
+                </a>
+              </div>
+            </div>
+            <div class="schedule-row">
+              <div class="schedule-label">Cost</div>
+              <div>$65 per child — includes a ~$30 kit of parts (all electronics plus the LEGO pieces) that your child keeps</div>
+            </div>
+            <div class="schedule-row">
+              <div class="schedule-label">What to bring</div>
+              <div><span >Water bottle, snack(s)</span></div>
+            </div>
+            <div class="schedule-row">
+              <div class="schedule-label">Status</div>
+              <div>
+                <strong>Registration coming soon.</strong> Join the mailing list to be notified when it opens.
+                <!-- Registration opens soon: swap back to https://countykidsclub.youthmodo.com/register?programId=e6d63796-2c8b-4738-8315-a2df68934c77 with "Register Now" -->
+                <a href="https://countykidsclub.youthmodo.com/mailing-list?list=06232d50-2b18-40d9-9c75-bbaf16a455c7" target="_blank" style="display: inline-block; margin-top: 0.6rem;">
+                  <button class="btn-primary">Get Notified</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Mailing list CTA -->
+        <div class="mailing-cta-card">
+          <h3>Want to be notified about our next program?</h3>
+          <p>Join our mailing list and be the first to know when new programs launch.</p>
+          <a href="https://countykidsclub.youthmodo.com/mailing-list?list=06232d50-2b18-40d9-9c75-bbaf16a455c7" target="_blank">
+            <button class="btn-primary">Join the Mailing List</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT TO EXPECT / IS IT RIGHT FOR MY CHILD -->
+    <section class="section-about-club">
+      <div class="container">
+        <div class="about-club-grid" style="grid-template-columns: 1fr 1fr;">
+          <div class="values-card">
+            <h3>What to expect on the day</h3>
+            <ul class="values-list">
+              <li>
+                <div class="value-icon" style="background: rgba(99,102,241,0.14);">👋</div>
+                <div class="value-text"><strong>Welcome &amp; intro</strong><span >A brief welcome and introduction to the robot, day's activities, and components.</span></div>
+              </li>
+              <li>
+                <div class="value-icon" style="background: rgba(99,102,241,0.14);">🧱</div>
+                <div class="value-text"><strong>Build the frame</strong><span >Students will construct the robot's frame using provided materials.</span></div>
+              </li>
+              <li>
+                <div class="value-icon" style="background: rgba(99,102,241,0.14);">🔌</div>
+                <div class="value-text"><strong>Wire the electronics</strong><span >Students will connect the electronic components to the robot's frame.</span></div>
+              </li>
+              <li>
+                <div class="value-icon" style="background: rgba(99,102,241,0.14);">💻</div>
+                <div class="value-text"><strong>Program &amp; test</strong><span >Students will learn about the process of programming and uploading the provided code to the robot, then test its functionality.</span></div>
+              </li>
+              <li>
+                <div class="value-icon" style="background: rgba(99,102,241,0.14);">🏁</div>
+                <div class="value-text"><strong>Wrap-up</strong><span >Final runs, take-home resources, and parent pick-up.</span></div>
+              </li>
+            </ul>
+          </div>
+          <div class="values-card">
+            <h3>Is this workshop right for my child?</h3>
+            <ul class="values-list">
+              <li>
+                <div class="value-icon" style="background: rgba(22,163,74,0.14);">✅</div>
+                <div class="value-text">They're 7–12 years old and curious about how things work.</div>
+              </li>
+              <li>
+                <div class="value-icon" style="background: rgba(22,163,74,0.14);">✅</div>
+                <div class="value-text">They enjoy building — LEGO, crafts, or taking things apart.</div>
+              </li>
+              <li>
+                <div class="value-icon" style="background: rgba(22,163,74,0.14);">✅</div>
+                <div class="value-text">They have the ability to follow instructions and focus for a 3-hour hands-on session.</div>
+              </li>
+              <li>
+                <div class="value-icon" style="background: rgba(22,163,74,0.14);">✅</div>
+                <div class="value-text">They have basic reading skills and fine motor skills needed for the activities.</div>
+              </li>
+              <li>
+                <div class="value-icon" style="background: rgba(22,163,74,0.14);">✅</div>
+                <div class="value-text">They are comfortable working in a group setting and following safety guidelines.</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSTRUCTORS -->
+    <section class="section-instructors" id="instructors">
+      <div class="container">
+        <div class="instructors-header">
+          <h2 class="section-title">Workshop Instructors</h2>
+          <p>
+            The Robotics Workshop is led by two instructors, so every child gets hands-on help building,
+            wiring, and programming their robot.
+          </p>
+        </div>
+
+        <div class="coach-roster" style="grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 760px; margin: 0 auto;">
+          <div class="coach-profile">
+            <div class="coach-avatar">
+              <img src="../images/mike-profile.jpg" alt="Mike Da Silva">
+            </div>
+            <div class="coach-name">Mike Da Silva</div>
+            <div class="coach-bio">
+              <span >A co-founder of County Kids Club, Mike is a lifelong tinkerer who loves figuring out how things work. With many years of experience in software development and building electronics projects, he's constantly fixing, building, or modifying something. He volunteers at local Repair Cafés, helping repair electronic items and keeping them out of landfill. Passionate about hands-on learning, fitness, and building strong communities, Mike enjoys creating opportunities for kids to explore their curiosity, develop new skills, and discover the joy of making things.</span>
+            </div>
+          </div>
+          <div class="coach-profile">
+            <div class="coach-avatar">
+              <img src="../images/jozef-profile.jpg" alt="Jozef Winter">
+            </div>
+            <div class="coach-name">Jozef Winter</div>
+            <div class="coach-bio">
+              Jozef is a hands-on tinkerer with a passion for electronics, fixing things, and figuring out how things work. He co-organizes a local Repair Café, where he helps repair electronic items and gives new life to things that might otherwise end up in landfill. He has also led an introductory electronics workshop for adults at the local library. Jozef brings his practical experience and enthusiasm for hands-on learning to the County Kids Club Robotics Workshop, encouraging kids to explore, experiment, and discover the fun of building and problem-solving.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section-faq" id="faq">
+      <div class="container">
+        <h2 class="section-title">Robotics Workshop FAQ</h2>
+        <p class="section-subtitle">Common questions about the workshop.</p>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <div class="faq-question">Does my child need any experience with electronics, coding, or robotics?</div>
+            <div class="faq-answer">
+              <span >No, the workshop is designed for beginners. Instructors will guide every step of the way. Just check our brief checklist to determine if this workshop is the right fit for you child.</span>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">Does my child get to keep the robot?</div>
+            <div class="faq-answer">
+              Yes. All materials are included, and each participant builds their own vehicle and takes it
+              home — the electronics and the LEGO pieces. The parts are very common electronic components,
+              so they can be reused for other projects and experiments.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">Can we keep working on it at home?</div>
+            <div class="faq-answer">
+              That's the goal. Kids leave with a fully working vehicle and the resources they need to keep
+              experimenting with the design and the program at home, on their own or with a parent's help.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">Do parents need to stay?</div>
+            <div class="faq-answer">
+              <span >No, you can drop-off your child but please have your mobile phone with you should we need to reach out.</span>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">Do we need a computer at home to change the program?</div>
+            <div class="faq-answer">
+              <span >Yes, a computer with an internet connection and the appropriate software are needed to reprogram the robot. Instructions will be provided on how you can continue working on it at home.</span>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">How many kids are in the workshop?</div>
+            <div class="faq-answer">
+              The workshop is limited to 8 kids with 2 instructors, so everyone gets plenty of hands-on help.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">How do I register and pay?</div>
+            <div class="faq-answer">
+              All registration and payment is online through our
+              <a href="https://countykidsclub.youthmodo.com/register" target="_blank">registration portal</a>.
+              Registration for the January 9 workshop opens soon. See the program details above for
+              current pricing.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">What if I have a question not covered here?</div>
+            <div class="faq-answer">
+              Email us at <a href="mailto:countykidsclub@gmail.com">countykidsclub@gmail.com</a> and we'll
+              get back to you as soon as possible.
+            </div>
           </div>
         </div>
       </div>
@@ -132,14 +541,11 @@
       <div class="container">
         <div class="about-club-grid">
           <div class="about-club-text">
-            <h2 class="section-title">Help Us Build a STEM Program Your Kids Will Love</h2>
+            <h2 class="section-title">Help Us Shape Future STEM Programs</h2>
             <p>
-              Would your child be interested in hands-on STEM activities? If so, we'd love your input.
-            </p>
-            <p>
-              County Kids Club is exploring the possibility of launching a new STEM program for children
-              ages 5–12, and rather than deciding what we think families want, we'd like to build it based
-              on what you want to see.
+              The Robotics Workshop is just the start. We're building more STEM programming for kids in
+              Prince Edward County, and rather than deciding what we think families want, we'd like to
+              build it based on what you want to see.
             </p>
             <p>
               Whether your child is interested in robotics, coding, engineering, science experiments,
@@ -166,144 +572,6 @@
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSp3BmIVw1FmBLt5kq56tzwiVJu0Y-NH66EeCGS6Odq6DI2Q/viewform?usp=header" target="_blank" style="display: block; margin-top: 1.4rem;">
                 <button class="btn-primary" style="width: 100%;">👉 Complete the Survey</button>
               </a>
-              <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--text-muted); text-align: center;">
-                Thank you for helping us shape future STEM programming for kids in Prince Edward County!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- WHAT KIDS EXPERIENCE -->
-    <section class="section-features">
-      <div class="container">
-        <div class="features-title">
-          <h2 class="section-title">What kids will experience</h2>
-          <p class="section-subtitle" style="margin: 0 auto; max-width: 520px;">
-            A hands-on, inquiry-based environment where curiosity is celebrated and every experiment
-            is a chance to discover something new.
-          </p>
-        </div>
-
-        <div class="features-grid">
-          <div class="feature-item">
-            <div class="feature-icon icon-purple">🏗️</div>
-            <h3>Building &amp; engineering</h3>
-            <p>
-              Design and build structures, simple machines, and robots using age-appropriate kits and
-              materials. Learn what works, what doesn't, and why.
-            </p>
-          </div>
-          <div class="feature-item">
-            <div class="feature-icon icon-blue">💻</div>
-            <h3>Coding &amp; problem-solving</h3>
-            <p>
-              Introduction to computational thinking through block-based coding, logic puzzles, and
-              guided challenges that make programming accessible and fun.
-            </p>
-          </div>
-          <div class="feature-item">
-            <div class="feature-icon icon-green">🔬</div>
-            <h3>Science experiments</h3>
-            <p>
-              Hands-on experiments that explore chemistry, physics, and biology in ways that are
-              surprising, tactile, and genuinely exciting for kids.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROGRAMS (Coming Soon) -->
-    <section class="section-programs">
-      <div class="container">
-        <h2 class="section-title" style="margin-bottom: 0.4rem;">Programs</h2>
-        <p class="section-subtitle" style="margin-bottom: 2rem; color: #111827;">
-          We're working on building out our STEM &amp; Robotics programs. Stay tuned.
-        </p>
-        <div class="coming-soon-block">
-          <div style="font-size: 3rem; margin-bottom: 1rem;">🚧</div>
-          <h3>Programs Coming Soon</h3>
-          <p>
-            We're actively developing STEM &amp; Robotics programming for kids in PEC, guided by input
-            from local families. Join the mailing list to be the first to know when registration opens.
-          </p>
-          <div class="hero-cta-group" style="justify-content: center;">
-            <a href="https://countykidsclub.youthmodo.com/mailing-list?list=06232d50-2b18-40d9-9c75-bbaf16a455c7" target="_blank">
-              <button class="btn-primary">Join the Mailing List</button>
-            </a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSp3BmIVw1FmBLt5kq56tzwiVJu0Y-NH66EeCGS6Odq6DI2Q/viewform?usp=header" target="_blank">
-              <button class="btn-outline">Take the Survey</button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- INSTRUCTORS -->
-    <section class="section-instructors">
-      <div class="container">
-        <div class="instructors-header">
-          <h2 class="section-title">Program Instructors</h2>
-          <p>
-            STEM &amp; Robotics programs will be led by local educators, engineers, and technology
-            enthusiasts from the Prince Edward County community. Instructor details will be shared
-            when programming is announced.
-          </p>
-        </div>
-        <div class="instructor-coming-soon">
-          <div style="font-size: 2.5rem; margin-bottom: 0.8rem; opacity: 0.5;">👤</div>
-          <p>Instructors will be announced with program registration.</p>
-          <a href="mailto:countykidsclub@gmail.com">
-            <button class="btn-white-outline">Get in touch if you'd like to teach</button>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- FAQ -->
-    <section class="section-faq" id="faq">
-      <div class="container">
-        <h2 class="section-title">STEM Program FAQ</h2>
-        <p class="section-subtitle">Early questions about our upcoming STEM &amp; Robotics programs.</p>
-
-        <div class="faq-list">
-          <div class="faq-item">
-            <div class="faq-question">Is the STEM program running yet?</div>
-            <div class="faq-answer">
-              Not yet — we're still in the planning stage and gathering input from local families before
-              we build it. If you'd like a say in what it looks like,
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSp3BmIVw1FmBLt5kq56tzwiVJu0Y-NH66EeCGS6Odq6DI2Q/viewform?usp=header" target="_blank">take our short survey</a>.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question">Does my child need any prior experience with coding or robotics?</div>
-            <div class="faq-answer">
-              Not at all. Programs will be designed for beginners and structured so that kids with no
-              prior experience can participate fully and confidently.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question">What age groups will STEM programs be for?</div>
-            <div class="faq-answer">
-              We're exploring a program for children ages 5–12, though the exact age breakdown may be
-              refined based on survey feedback. Join the mailing list for updates.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question">Will kids need to bring their own devices or materials?</div>
-            <div class="faq-answer">
-              No — all materials, devices, and kits will be provided as part of the program. We'll share
-              a full what-to-bring list when registration opens.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question">How can I get involved or propose a program?</div>
-            <div class="faq-answer">
-              If you're an educator, engineer, or STEM enthusiast interested in running a program,
-              we'd love to hear from you. Email us at
-              <a href="mailto:countykidsclub@gmail.com">countykidsclub@gmail.com</a>.
             </div>
           </div>
         </div>
@@ -315,7 +583,7 @@
       <div class="container">
         <h2 class="section-title">Explore Other Programs</h2>
         <p class="section-subtitle" style="margin-bottom: 1.6rem;">
-          Our movement and fitness programs are active now. Other program areas are on the way.
+          County Kids Club also runs movement and fitness, soccer, and Open Gym programs.
         </p>
         <a href="/#programs">
           <button class="btn-primary">← Back to All Programs</button>
