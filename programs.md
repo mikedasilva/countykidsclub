@@ -109,7 +109,7 @@ and comfort.
 - **Ages:** 7–12 years
 - **What it is:** CKC's first robotics program — a one-time, hands-on workshop. Each child builds
   their own line-following robot: a LEGO frame plus real electronic components (motors, an
-  Arduino microcontroller, stepper motor drivers, line sensors, switches, wires, batteries, and
+  Arduino microcontroller, motor controllers, line sensors, switches, wires, batteries, and
   breadboards). Kids learn basic electronics, troubleshooting, and the programming process.
 - **Keeps:** each participant takes their robot home, with an understanding of how it works and
   resources to keep experimenting with the design and the program at home. The parts are common components reusable for other projects.
